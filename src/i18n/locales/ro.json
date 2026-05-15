@@ -1,0 +1,421 @@
+{
+  "nav": {
+    "home": "Acasă",
+    "fleet": "Flotă",
+    "vip": "Servicii VIP",
+    "chauffeur": "Șofer Privat",
+    "weddings": "Nunți și evenimente",
+    "about": "Casa",
+    "contact": "Contact",
+    "book": "Rezervă"
+  },
+  "common": {
+    "explore": "Explorează",
+    "discover": "Descoperă",
+    "reserve": "Rezervă",
+    "whatsapp": "Rezervă prin WhatsApp",
+    "viewAll": "Vezi tot",
+    "fromPerDay": "de la {{price}} / zi",
+    "perDay": "/ zi",
+    "scrollToExplore": "Derulează pentru a explora",
+    "loading": "Se încarcă",
+    "priceFromDay": "De la {{price}} € / zi",
+    "specsOnRequest": "Specificațiile complete sunt confirmate la rezervare."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Maroc — Din 2018",
+      "title": "Accrocar",
+      "subtitle": "Închirieri mașini de lux în Marrakech cu livrare VIP în tot Marocul",
+      "lede": "Închirieri mașini de lux în Marrakech, automobile premium atent selectate, șofer privat la cerere și livrare VIP la hoteluri, riaduri, aeroporturi, vile private și evenimente în tot Marocul — pentru sosiri fluide, discrete și perfect coordonate.",
+      "ctaFleet": "Descoperă flota",
+      "ctaWhatsapp": "Rezervă prin WhatsApp",
+      "imageAlt": "Bentley la Royal Mansour Marrakech pentru închirieri mașini de lux Accrocar"
+    },
+    "intro": {
+      "eyebrow": "O casă a automobilului",
+      "title": "Un atelier discret de automobile rare, oferite cu o precizie tăcută.",
+      "body": "De la Marrakech la Casablanca, de la Atlantic la poalele deșertului — Accrocar coregrafiază fiecare sosire. Fiecare mașină este pregătită manual și livrată unde sunteți dvs. Sobrietatea este semnătura noastră."
+    },
+    "brands": {
+      "eyebrow": "Case reprezentate"
+    },
+    "featured": {
+      "eyebrow": "Automobile alese",
+      "title": "O selecție considerată",
+      "cta": "Vezi întreaga flotă"
+    },
+    "experience": {
+      "eyebrow": "Experiența Accrocar",
+      "title": "Dincolo de închiriere. O artă a sosirii.",
+      "imageAlt": "Range Rover livrat de Accrocar pentru închiriere auto de lux în Marrakech",
+      "imageTitle": "Experiența Accrocar de închiriere auto de lux în Marrakech",
+      "items": {
+        "delivery": {
+          "title": "Livrare VIP în tot Marocul",
+          "body": "Mașina dvs. de lux este livrată în regim VIP în tot Marocul — hotel, riad, aeroport, vilă sau eveniment, de la Marrakech la Rabat, Tanger sau Agadir, pregătită la standard premium."
+        },
+        "concierge": {
+          "title": "Concierge 24/7",
+          "body": "Un singur punct de contact, zi și noapte. Rezervări, excursii, zboruri private — aranjate înainte să cereți."
+        },
+        "discretion": {
+          "title": "Discreție absolută",
+          "body": "Nu fotografiem clientela. Nu împărtășim itinerare. Confidențialitatea este cel mai luxos bun pe care îl oferim."
+        }
+      }
+    },
+    "services": {
+      "eyebrow": "Servicii",
+      "title": "Patru moduri de a călători.",
+      "items": {
+        "self": {
+          "title": "Închiriere self-drive",
+          "body": "Luați volanul. Către Essaouira, trecătoarele Atlasului, Agafay — sau o fugă la Casablanca când itinerariul o cere."
+        },
+        "chauffeur": {
+          "title": "Șofer privat",
+          "body": "Un șofer vorbitor de engleză sau franceză, în costum și format, la discreția dvs."
+        },
+        "wedding": {
+          "title": "Nunți și evenimente",
+          "body": "Sosiri cinematice. Mașini de mireasă, cortegii, activări de brand."
+        },
+        "tours": {
+          "title": "Tururi la comandă",
+          "body": "Itinerarii pe mai multe zile — Fes, Rabat, coasta, sudul — cu aceeași discreție ca în casa noastră din Marrakech."
+        }
+      }
+    },
+    "why": {
+      "eyebrow": "De ce Accrocar",
+      "title": "Standardele pe care le păstrăm.",
+      "points": {
+        "fleet": {
+          "title": "O flotă la standard de atelier",
+          "body": "Fiecare automobil este pregătit manual înaintea fiecărei livrări. Fără excepții."
+        },
+        "team": {
+          "title": "Formați în ospitalitate, nu doar în automobile",
+          "body": "Echipa noastră vine din casele care definesc standardul Marrakech."
+        },
+        "trust": {
+          "title": "De încredere pentru editori, fondatori, regalitate",
+          "body": "Șase ani de referințe în camerele unde referințele contează."
+        },
+        "speed": {
+          "title": "Aranjament în aceeași zi, deseori",
+          "body": "Când timpul presează — la Marrakech sau spre următoarea destinație marocană — acționăm cu urgență discretă."
+        }
+      }
+    },
+    "testimonials": {
+      "eyebrow": "Spuse în confidență",
+      "title": "Voci."
+    },
+    "finalCta": {
+      "eyebrow": "Începeți",
+      "title": "Marocul dvs., considerat.",
+      "body": "Spuneți datele și orașul — ușile se vor deschide.",
+      "imageAlt": "Porsche de lux noaptea pentru o rezervare Accrocar în Marrakech",
+      "imageTitle": "Începeți o rezervare auto de lux Accrocar în Marrakech",
+      "cta": "Începeți o rezervare"
+    }
+  },
+  "fleet": {
+    "title": "Flota",
+    "subtitle": "O selecție premium pentru închirieri mașini de lux în Marrakech — cu livrare VIP în tot Marocul.",
+    "allBrands": "Toate mărcile",
+    "allCategories": "Toate categoriile",
+    "filterBrands": "Marcă",
+    "filterCategories": "Categorie",
+    "filterPrice": "Preț",
+    "sortDefault": "Implicit",
+    "sortPriceAsc": "Preț: de la mic la mare",
+    "sortPriceDesc": "Preț: de la mare la mic",
+    "categoryLabels": {
+      "city-car": "Mașină de oraș",
+      "compact": "Compact",
+      "compact-premium": "Compact premium",
+      "compact-sport": "Compact sport",
+      "economy": "Economic",
+      "executive-sedan": "Sedan executive",
+      "luxury-suv": "SUV de lux",
+      "luxury-van": "Van de lux",
+      "premium-sedan": "Sedan premium",
+      "premium-suv": "SUV premium",
+      "sport-compact": "Compact sport",
+      "sport-suv": "SUV sport",
+      "suv": "SUV",
+      "suv-premium": "SUV premium",
+      "ultra-luxury-suv": "SUV ultra-lux"
+    },
+    "heroEyebrow": "Marrakech, 2026"
+  },
+  "booking": {
+    "specLabel": "Specificații",
+    "specTitle": "Inginerie, cu rigoare.",
+    "leftColumnBlurb": "Indicați datele, orașul de livrare și locul predării — hotel, riad, aeroport sau reședință oriunde în Maroc. Confirmăm disponibilitatea și condițiile în privat.",
+    "formEyebrow": "Rezervare",
+    "deliveryCity": "Oraș livrare",
+    "deliveryCityPlaceholder": "Selectați un oraș",
+    "deliveryCityOther": "Precizați orașul",
+    "deliveryCityOtherPlaceholder": "Denumire oraș",
+    "deliveryAddress": "Adresă livrare",
+    "deliveryAddressPlaceholder": "Hotel, riad, terminal aeroport, vilă sau adresă completă",
+    "deliveryCities": {
+      "marrakech": "Marrakech",
+      "casablanca": "Casablanca",
+      "rabat": "Rabat",
+      "tangier": "Tanger",
+      "agadir": "Agadir",
+      "essaouira": "Essaouira",
+      "ouarzazate": "Ouarzazate",
+      "fes": "Fes",
+      "other": "Altul"
+    },
+    "startDate": "Data început",
+    "endDate": "Data sfârșit",
+    "duration": "Durată",
+    "durationOneDay": "1 zi",
+    "durationDays": "{{count}} zile",
+    "fullName": "Nume complet",
+    "phone": "Telefon",
+    "optionalMessage": "Mesaj (opțional)",
+    "optionalPlaceholder": "Nr. zbor, adresă livrare, scaun copil…",
+    "submit": "Rezervă prin WhatsApp",
+    "fixForm": "Completați următoarele",
+    "whatsappHint": "WhatsApp se deschide doar cu formularul valid. Mesajul se deschide într-un tab nou.",
+    "errorStartDate": "Selectați data de început.",
+    "errorEndDate": "Selectați data de sfârșit.",
+    "errorEndBeforeStart": "Data de sfârșit trebuie să fie în aceeași zi sau după început.",
+    "errorFullName": "Introduceți numele complet.",
+    "errorPhone": "Introduceți un număr valid cu prefix de țară.",
+    "errorDeliveryCity": "Selectați un oraș de livrare.",
+    "errorDeliveryCityOther": "Introduceți orașul.",
+    "errorDeliveryAddress": "Introduceți adresa sau locul de livrare."
+  },
+  "vip": {
+    "title": "Servicii VIP",
+    "subtitle": "Aviație privată, livrare la hotel și reședință în tot Marocul, concierge 24h."
+  },
+  "chauffeur": {
+    "title": "Șofer Privat",
+    "subtitle": "Cu ora, cu ziua sau tot sejurul — la Marrakech sau oriunde duce itinerariul dvs. marocan."
+  },
+  "weddings": {
+    "title": "Nunți și evenimente",
+    "subtitle": "Sosiri memorabile de la coastă la orașele imperiale — mașini de mireasă și cortegii în Maroc."
+  },
+  "about": {
+    "title": "Casa",
+    "subtitle": "Un atelier al automobilului, ținut de o familie din 2018."
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Închirieri mașini de lux în Marrakech cu livrare VIP în tot Marocul. Scrieți-ne în privat — răspundem în decurs de o oră.",
+    "deliveryNote": "Accrocar livrează mașini de lux în regim VIP la hoteluri, riaduri, aeroporturi, vile, reședințe și evenimente în tot Marocul. Indicați orașul și locul predării în mesaj.",
+    "name": "Nume",
+    "email": "Email",
+    "phone": "Telefon",
+    "message": "Mesaj",
+    "send": "Trimite",
+    "whatsappPrefill": "Bună ziua Accrocar,\n\nMă interesează închirieri mașini de lux în Marrakech cu livrare VIP în Maroc.\n\nNume: {{name}}\nEmail: {{email}}\nTelefon: {{phone}}\n\n{{message}}",
+    "sentEyebrow": "Trimis",
+    "sentTitle": "Mulțumim. Vom răspunde în decurs de o oră.",
+    "linkWhatsapp": "Rezervă prin WhatsApp",
+    "eyebrowPrivately": "În privat",
+    "eyebrowHouse": "Casă",
+    "eyebrowDirect": "Direct",
+    "faqEyebrow": "Întrebări",
+    "faqTitle": "Câteva răspunsuri, înainte să scrieți.",
+    "faqItems": [
+      {
+        "q": "Operați doar în Marrakech?",
+        "a": "Marrakech este baza noastră — iar mașinile de lux sunt livrate VIP în tot Marocul: Casablanca, Rabat, Tanger, Agadir, Essaouira, Ouarzazate, Fes și dincolo, la cerere."
+      },
+      {
+        "q": "Unde puteți livra un vehicul?",
+        "a": "La hotel, riad, vilă, aeroport, reședință sau eveniment. Coordonăm predarea VIP discret și confirmăm adresa exactă în avans."
+      },
+      {
+        "q": "Cât de repede puteți organiza o mașină?",
+        "a": "Adesea în aceeași zi, dacă modelul este disponibil și logistica permite. Pentru livrare VIP în tot Marocul confirmăm timpul și ruta în privat."
+      },
+      {
+        "q": "Oferiți șoferi în afara Marrakechului?",
+        "a": "Da — închirierea poate include șofer privat în Marrakech sau pentru itinerarii în tot Marocul, în funcție de disponibilitate."
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Închirieri mașini de lux în Marrakech cu livrare VIP în tot Marocul",
+    "heroPrefix": "Închirieri de lux,",
+    "heroAccent": "livrate VIP",
+    "heroSuffix": " în tot Marocul.",
+    "locationCity": "Marrakech",
+    "madeIn": "Ancorat în Marrakech · la dispoziția Marocului",
+    "rights": "Toate drepturile rezervate",
+    "menu": "Meniu",
+    "contact": "Contact",
+    "follow": "Urmărește"
+  },
+  "seo": {
+    "titleSuffix": " — Accrocar | Închirieri mașini lux Marrakech",
+    "defaultTitle": "Accrocar — Închirieri mașini de lux în Marrakech cu livrare VIP în tot Marocul",
+    "home": {
+      "title": "Închirieri mașini de lux în Marrakech",
+      "description": "Accrocar oferă închirieri mașini de lux în Marrakech cu livrare VIP în tot Marocul. Ferrari, Lamborghini, Rolls-Royce, Bentley, Range Rover, șofer privat și predare la hotel, riad, vilă sau aeroport.",
+      "keywords": "închirieri mașini lux Marrakech, închirieri mașini de lux Maroc, livrare VIP mașini Maroc, Ferrari Marrakech, Lamborghini Marrakech, Range Rover Marrakech, șofer privat Maroc",
+      "jsonLdDescription": "Închirieri mașini de lux în Marrakech cu livrare VIP în tot Marocul, șofer privat și transport VIP din 2018."
+    },
+    "fleet": {
+      "title": "Flota",
+      "description": "Descoperiți flota Accrocar — SUV-uri premium, berline, monovolume de lux și automobile de top disponibile în Marrakech cu livrare VIP în Casablanca, Rabat, Tanger, Agadir și în tot Marocul.",
+      "keywords": "închirieri mașini lux Marrakech, închirieri mașini de lux Maroc, livrare VIP mașini Maroc, SUV lux Marrakech, Range Rover Marrakech, Bentley Maroc, Mercedes V-Class Maroc"
+    },
+    "carDetail": {
+      "description": "Închiriați un {{brand}} {{model}} în Marrakech cu Accrocar — livrare VIP la hotel, riad, aeroport sau vilă oriunde în Maroc. {{description}}",
+      "keywords": "{{brand}} {{model}} Marrakech, închirieri mașini lux Marrakech, {{brand}} Maroc, livrare VIP mașini Maroc, închiriere lux Maroc",
+      "productDescription": "{{description}}"
+    },
+    "vip": {
+      "title": "Servicii VIP",
+      "description": "Accrocar VIP — închirieri mașini de lux în Marrakech, transferuri aeroport și jet privat, plus livrare VIP la hoteluri, vile și reședințe în tot Marocul.",
+      "keywords": "închirieri mașini lux Marrakech, livrare VIP Maroc, transport VIP Maroc, transfer aeroport lux Marrakech, jet privat Maroc"
+    },
+    "chauffeur": {
+      "title": "Șofer Privat",
+      "description": "Șofer privat în Maroc — engleză sau franceză, în costum, instruit în ospitalitate. Cu ora, cu ziua sau pentru tot itinerariul național.",
+      "keywords": "șofer privat Maroc, șofer privat Marrakech, șofer engleză Maroc, șofer lux Casablanca, transport VIP Maroc"
+    },
+    "weddings": {
+      "title": "Nunți și evenimente",
+      "description": "Mașini de mireasă, cortegii și sosiri memorabile pentru nunți și evenimente în Maroc — Marrakech, Essaouira, Rabat și destinații la comandă cu Accrocar.",
+      "keywords": "mașină nuntă Maroc, transport nuntă lux Marrakech, Rolls Royce nuntă Maroc, cortegiu Casablanca, evenimente lux Maroc"
+    },
+    "about": {
+      "title": "Casa",
+      "description": "Accrocar este o casă de închirieri mașini de lux cu bază în Marrakech din 2018 — livrare VIP în tot Marocul, șofer privat și mobilitate premium pentru clienți exigenți.",
+      "keywords": "Accrocar Maroc, închirieri mașini lux Marrakech, livrare VIP Maroc, despre Accrocar"
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Contactați Accrocar pentru închirieri mașini de lux în Marrakech cu livrare VIP în tot Marocul. Răspundem în decurs de o oră — WhatsApp, email sau programare.",
+      "keywords": "contact Accrocar Maroc, rezervare mașină lux Marrakech, WhatsApp închiriere lux Maroc, livrare VIP mașini Maroc"
+    }
+  },
+  "bookingWhatsapp": {
+    "greeting": "Bună ziua Accrocar,",
+    "intent": "Aș dori să rezerv {{carName}} cu livrare VIP în Maroc.",
+    "detailsHeader": "Detalii rezervare:",
+    "lineCar": "- Automobil: {{carName}}",
+    "lineStart": "- Data început: {{date}}",
+    "lineEnd": "- Data sfârșit: {{date}}",
+    "lineDuration": "- Durată: {{duration}}",
+    "lineFullName": "- Nume complet: {{name}}",
+    "linePhone": "- Telefon: {{phone}}",
+    "lineDeliveryCity": "- Oraș livrare: {{city}}",
+    "lineDeliveryAddress": "- Adresă / loc predare: {{address}}",
+    "lineCountry": "- Țară: {{country}}",
+    "optionalWithMessage": "Mesaj suplimentar:\n{{message}}",
+    "closing": "Vă rog să confirmați disponibilitatea, condițiile finale și organizarea livrării VIP."
+  },
+  "vipPage": {
+    "eyebrow": "Doar cu programare",
+    "cards": [
+      {
+        "title": "Închiriere self-drive",
+        "body": "Luați volanul. Drumuri spre Essaouira, trecătorile Atlasului, deșertul Agafay — sau o cursă spre Casablanca când itinerariul o cere."
+      },
+      {
+        "title": "Șofer privat",
+        "body": "Un șofer vorbitor de engleză sau franceză, în costum și instruit, la discreția dvs."
+      },
+      {
+        "title": "Nunți și evenimente",
+        "body": "Sosiri cinematice. Mașini pentru miri, cortegii și activări de brand."
+      },
+      {
+        "title": "Tururi la comandă",
+        "body": "Itinerarii pe mai multe zile prin Fes, Rabat, coastă și sud — coordonate cu aceeași discreție ca în casa noastră din Marrakech."
+      }
+    ]
+  },
+  "chauffeurPage": {
+    "heroAlt": "Șofer privat în Maroc",
+    "heroEyebrow": "Ore, zile sau tot sejurul",
+    "standardEyebrow": "Standardul",
+    "standardTitle": "Discret, exact, prezent.",
+    "standardBody": "Șoferii noștri provin din casele care definesc ospitalitatea la Marrakech și sunt detașați în Maroc când itinerariul o cere. Franceză și engleză; adesea arabă, spaniolă sau italiană. Costum la comandă — fără logo — și discernământul de a apărea sau a dispărea.",
+    "tiers": [
+      {
+        "hours": "04",
+        "label": "Jumătate de zi",
+        "body": "O dimineață la souk, întoarcere la riad."
+      },
+      {
+        "hours": "08",
+        "label": "Zi întreagă",
+        "body": "De la oraș la Atlas, de la Atlas la dune. Ritm răbdător."
+      },
+      {
+        "hours": "24",
+        "label": "Rezidență",
+        "body": "Disponibilitate zilnică pe mai multe zile. În costum și în tăcere."
+      }
+    ]
+  },
+  "weddingsPage": {
+    "heroAlt": "Sosire la nuntă la Marrakech",
+    "heroEyebrow": "O sosire care merită fotografiată o singură dată",
+    "services": [
+      {
+        "n": "01",
+        "title": "Mașini de mireasă",
+        "body": "Rolls-Royce Phantom, Bentley Continental, Mercedes 500SL — restaurate, fotogenice, impecabile."
+      },
+      {
+        "n": "02",
+        "title": "Cortegii",
+        "body": "Convoaie de până la șase mașini pentru invitați, fotografi, familie — coregrafiate pe rută și oră."
+      },
+      {
+        "n": "03",
+        "title": "Activări",
+        "body": "Colaborări de brand și comenzi editoriale de la Marrakech la coastă și orașele imperiale ale Marocului."
+      }
+    ]
+  },
+  "aboutPage": {
+    "heroAlt": "Atelier Accrocar",
+    "heroImageTitle": "Casa Accrocar din Marrakech",
+    "headerEyebrow": "Marrakech — Din 2018",
+    "disciplineEyebrow": "Disciplina noastră",
+    "disciplineTitle": "Mai puțin, dar mai bine.",
+    "disciplineP1": "Accrocar este un atelier în sensul original — mic, exact, fără grabă. Ținem un roster strâns și refuzăm restul. Răspundem noi la telefon.",
+    "disciplineP2": "Casa a fost fondată în 2018 de o familie cu două decenii în ospitalitate, nu în automobile. Aducem acea disciplină — tăcere, anticipare, reținere — la fiecare sosire.",
+    "milestones": [
+      {
+        "year": "2018",
+        "label": "Înființare",
+        "body": "Un singur Bentley, un singur număr, o singură listă de invitați."
+      },
+      {
+        "year": "2020",
+        "label": "Atelier",
+        "body": "Atelierul nostru de pregătire se deschide în Hivernage."
+      },
+      {
+        "year": "2023",
+        "label": "Concierge",
+        "body": "Concierge 24/7 și predări pentru aviație privată."
+      },
+      {
+        "year": "2026",
+        "label": "Astăzi",
+        "body": "Douăzeci de automobile, șase șoferi, un singur standard."
+      }
+    ]
+  }
+}

@@ -1,0 +1,94 @@
+import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
+import Reveal from './animations/Reveal'
+import { INSTAGRAM_URL, whatsappDisplayNumber, whatsappLink } from '../lib/whatsapp'
+
+export default function Footer() {
+  const { t } = useTranslation()
+  const year = new Date().getFullYear()
+
+  return (
+    <footer className="relative bg-pearl text-obsidian border-t border-sand/60">
+      <div className="container-editorial py-section">
+        <Reveal>
+          <h2 className="font-serif text-display-md tracking-tight max-w-3xl text-obsidian">
+            {t('footer.heroPrefix')}{' '}
+            <span className="italic text-crimson">{t('footer.heroAccent')}</span>
+            {t('footer.heroSuffix')}
+          </h2>
+        </Reveal>
+
+        <div className="mt-20 grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-8">
+          <div className="md:col-span-5">
+            <p className="eyebrow">Accrocar</p>
+            <p className="mt-6 text-obsidian/75 leading-relaxed max-w-md">
+              {t('footer.tagline')}.
+            </p>
+          </div>
+
+          <div className="md:col-span-3">
+            <p className="eyebrow">{t('footer.menu')}</p>
+            <ul className="mt-6 space-y-3 text-obsidian/85">
+              <li>
+                <Link to="/fleet" className="link-reveal">
+                  {t('nav.fleet')}
+                </Link>
+              </li>
+              <li>
+                <Link to="/vip-services" className="link-reveal">
+                  {t('nav.vip')}
+                </Link>
+              </li>
+              <li>
+                <Link to="/private-chauffeur" className="link-reveal">
+                  {t('nav.chauffeur')}
+                </Link>
+              </li>
+              <li>
+                <Link to="/weddings-events" className="link-reveal">
+                  {t('nav.weddings')}
+                </Link>
+              </li>
+              <li>
+                <Link to="/about" className="link-reveal">
+                  {t('nav.about')}
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          <div className="md:col-span-2">
+            <p className="eyebrow">{t('footer.contact')}</p>
+            <ul className="mt-6 space-y-3 text-obsidian/85">
+              <li>{t('footer.locationCity')}</li>
+              <li>{whatsappDisplayNumber()}</li>
+              <li>contact@accrocar.com</li>
+            </ul>
+          </div>
+
+          <div className="md:col-span-2">
+            <p className="eyebrow">{t('footer.follow')}</p>
+            <ul className="mt-6 space-y-3 text-obsidian/85">
+              <li>
+                <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer" className="link-reveal">
+                  Instagram
+                </a>
+              </li>
+              <li>
+                <a href={whatsappLink()} target="_blank" rel="noopener noreferrer" className="link-reveal">
+                  WhatsApp
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="mt-20 h-px w-full bg-sand/60" />
+        <div className="mt-6 flex flex-col md:flex-row md:items-center md:justify-between gap-3 text-sand-600 text-[11px] tracking-luxe uppercase">
+          <span>© {year} Accrocar. {t('footer.rights')}.</span>
+          <span>{t('footer.madeIn')}</span>
+        </div>
+      </div>
+    </footer>
+  )
+}

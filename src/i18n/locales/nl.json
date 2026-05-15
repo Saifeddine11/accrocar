@@ -1,0 +1,423 @@
+{
+  "nav": {
+    "home": "Home",
+    "fleet": "Vloot",
+    "vip": "VIP-services",
+    "chauffeur": "Privéchauffeur",
+    "weddings": "Bruiloften en events",
+    "about": "Over ons",
+    "contact": "Contact",
+    "book": "Reserveren"
+  },
+  "common": {
+    "explore": "Ontdekken",
+    "discover": "Ontdek",
+    "reserve": "Reserveren",
+    "whatsapp": "Reserveren via WhatsApp",
+    "viewAll": "Alles bekijken",
+    "fromPerDay": "vanaf {{price}} / dag",
+    "perDay": "/ dag",
+    "scrollToExplore": "Scroll om te ontdekken",
+    "loading": "Laden",
+    "priceFromDay": "Vanaf {{price}} € / dag",
+    "specsOnRequest": "Volledige specificaties bevestigen we bij uw reservering."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Marokko — Sinds 2018",
+      "title": "Accrocar",
+      "subtitle": "Luxe autoverhuur in Marrakech met VIP-levering in heel Marokko",
+      "lede": "Luxe autoverhuur in Marrakech, zorgvuldig geselecteerde premium auto’s, privéchauffeur op aanvraag en VIP-levering aan hotels, riads, luchthavens, villa’s en events in heel Marokko — voor aankomsten die discreet, soepel en perfect geregeld voelen.",
+      "ctaFleet": "Ontdek de vloot",
+      "ctaWhatsapp": "Reserveren via WhatsApp",
+      "imageAlt": "Bentley bij Royal Mansour Marrakech voor Accrocar luxe autoverhuur"
+    },
+    "intro": {
+      "eyebrow": "Een huis van mobiliteit",
+      "title": "Een ingetogen atelier van zeldzame auto’s, met stille precisie tot uw beschikking.",
+      "body": "Van Marrakech tot Casablanca, van de Atlantische kust tot de rand van de woestijn — Accrocar regisseert elke aankomst. Elke wagen wordt met de hand klaargemaakt en bij u geleverd. Terughoudendheid is onze handtekening."
+    },
+    "brands": {
+      "eyebrow": "Vertegenwoordigde merken"
+    },
+    "featured": {
+      "eyebrow": "Uitgelichte auto’s",
+      "title": "Een doordachte selectie",
+      "cta": "Bekijk de volledige vloot"
+    },
+    "experience": {
+      "eyebrow": "De Accrocar-ervaring",
+      "title": "Meer dan huren. Een standaard van aankomst.",
+      "imageAlt": "Range Rover geleverd door Accrocar voor luxe autoverhuur in Marrakech",
+      "imageTitle": "Accrocar ervaring voor luxe autoverhuur in Marrakech",
+      "items": {
+        "delivery": {
+          "title": "VIP-levering in heel Marokko",
+          "body": "Uw luxe auto wordt als VIP-service geleverd in heel Marokko — hotel, riad, luchthaven, villa of eventlocatie, van Marrakech tot Rabat, Tanger of Agadir, voorbereid op premium niveau."
+        },
+        "concierge": {
+          "title": "Concierge 24/7",
+          "body": "Eén aanspreekpunt, dag en nacht. Restaurants, woestijnexcursies, privévluchten — geregeld voordat u het vraagt."
+        },
+        "discretion": {
+          "title": "Absolute discretie",
+          "body": "We fotograferen onze gasten niet. We delen geen routes. Privacy is het meest luxueuze wat we bieden."
+        }
+      }
+    },
+    "services": {
+      "eyebrow": "Diensten",
+      "title": "Vier manieren om te reizen.",
+      "items": {
+        "self": {
+          "title": "Zelf rijden",
+          "body": "Neem het stuur. Naar Essaouira, Atlaspassen, Agafay — of een rit naar Casablanca als uw route het vraagt."
+        },
+        "chauffeur": {
+          "title": "Privéchauffeur",
+          "body": "Een Engelstalige of Franstalige chauffeur, in pak en opgeleid in gastvrijheid, naar uw wens inzetbaar."
+        },
+        "wedding": {
+          "title": "Bruiloften en events",
+          "body": "Filmische aankomsten. Trouwauto’s, colonnes, merkactivaties."
+        },
+        "tours": {
+          "title": "Rondreizen op maat",
+          "body": "Meerdaagse routes — Fès, Rabat, de kust, het zuiden — met dezelfde discretie als in ons huis in Marrakech."
+        }
+      }
+    },
+    "why": {
+      "eyebrow": "Waarom Accrocar",
+      "title": "De normen die we hanteren.",
+      "points": {
+        "fleet": {
+          "title": "Een vloot op atelier-niveau",
+          "body": "Elke wagen wordt vóór elke levering met de hand afgewerkt. Zonder uitzondering."
+        },
+        "team": {
+          "title": "Opgroeid in gastvrijheid, niet alleen in auto’s",
+          "body": "Ons team komt uit de huizen die de standaard van Marrakech bepalen."
+        },
+        "trust": {
+          "title": "Vertrouwd door redacteuren, ondernemers, vorstelijke gasten",
+          "body": "Zes jaar referenties in de kringen waar referenties ertoe doen."
+        },
+        "speed": {
+          "title": "Vaak dezelfde dag geregeld",
+          "body": "Als de tijd dringt — in Marrakech of op weg naar uw volgende bestemming in Marokko — handelen we met stille urgentie."
+        }
+      }
+    },
+    "testimonials": {
+      "eyebrow": "Vertrouwelijk gedeeld",
+      "title": "Stemmen."
+    },
+    "finalCta": {
+      "eyebrow": "Begin",
+      "title": "Uw Marokko, tot in detail.",
+      "body": "Geef data en stad door — de deuren gaan open.",
+      "imageAlt": "Luxe Porsche in de avond voor een Accrocar-reservering in Marrakech",
+      "imageTitle": "Start een Accrocar luxe autoverhuurreservering in Marrakech",
+      "cta": "Start een reservering"
+    }
+  },
+  "fleet": {
+    "title": "De vloot",
+    "subtitle": "Een premium selectie voor luxe autoverhuur in Marrakech — met VIP-levering in heel Marokko.",
+    "allBrands": "Alle merken",
+    "allCategories": "Alle categorieën",
+    "filterBrands": "Merk",
+    "filterCategories": "Categorie",
+    "filterPrice": "Prijs",
+    "sortDefault": "Standaard",
+    "sortPriceAsc": "Prijs: laag naar hoog",
+    "sortPriceDesc": "Prijs: hoog naar laag",
+    "categoryLabels": {
+      "city-car": "Stadsauto",
+      "compact": "Compact",
+      "compact-premium": "Compact premium",
+      "compact-sport": "Compact sport",
+      "economy": "Economy",
+      "executive-sedan": "Executive sedan",
+      "luxury-suv": "Luxe SUV",
+      "luxury-van": "Luxe bus",
+      "premium-sedan": "Premium sedan",
+      "premium-suv": "Premium SUV",
+      "sport-compact": "Sport compact",
+      "sport-suv": "Sport SUV",
+      "suv": "SUV",
+      "suv-premium": "SUV premium",
+      "ultra-luxury-suv": "Ultra luxe SUV"
+    },
+    "heroEyebrow": "Marrakech, 2026"
+  },
+  "booking": {
+    "specLabel": "Specificaties",
+    "specTitle": "Techniek, doordacht.",
+    "leftColumnBlurb": "Kies data, leveringsstad en overdrachtsadres — hotel, riad, luchthaven of verblijf overal in Marokko. Beschikbaarheid en voorwaarden bevestigen we privé.",
+    "formEyebrow": "Reservering",
+    "deliveryCity": "Leveringsstad",
+    "deliveryCityPlaceholder": "Selecteer een stad",
+    "deliveryCityOther": "Uw stad",
+    "deliveryCityOtherPlaceholder": "Stadsnaam",
+    "deliveryAddress": "Leveringsadres",
+    "deliveryAddressPlaceholder": "Hotel, riad, luchthaventerminal, villa of volledig adres",
+    "deliveryCities": {
+      "marrakech": "Marrakech",
+      "casablanca": "Casablanca",
+      "rabat": "Rabat",
+      "tangier": "Tanger",
+      "agadir": "Agadir",
+      "essaouira": "Essaouira",
+      "ouarzazate": "Ouarzazate",
+      "fes": "Fès",
+      "other": "Anders"
+    },
+    "startDate": "Startdatum",
+    "endDate": "Einddatum",
+    "duration": "Duur",
+    "durationOneDay": "1 dag",
+    "durationDays": "{{count}} dagen",
+    "fullName": "Volledige naam",
+    "phone": "Telefoon",
+    "optionalMessage": "Bericht (optioneel)",
+    "optionalPlaceholder": "Vluchtnummer, leveradres, kinderzitje…",
+    "submit": "Reserveren via WhatsApp",
+    "fixForm": "Vul het volgende aan",
+    "whatsappHint": "WhatsApp opent pas als het formulier geldig is. Uw bericht opent in een nieuw tabblad.",
+    "errorStartDate": "Kies een startdatum.",
+    "errorEndDate": "Kies een einddatum.",
+    "errorEndBeforeStart": "De einddatum moet op of na de startdatum liggen.",
+    "errorFullName": "Vul uw volledige naam in.",
+    "errorPhone": "Vul een geldig nummer in, inclusief landcode.",
+    "errorDeliveryCity": "Selecteer een leveringsstad.",
+    "errorDeliveryCityOther": "Vul uw stad in.",
+    "errorDeliveryAddress": "Vul het leveringsadres of de locatie in."
+  },
+  "vip": {
+    "title": "VIP-services",
+    "subtitle": "Privévluchten, levering aan hotel en residentie in heel Marokko, concierge 24 uur per dag."
+  },
+  "chauffeur": {
+    "title": "Privéchauffeur",
+    "subtitle": "Per uur, per dag of uw hele verblijf — in Marrakech of waar uw Marokkaanse route naartoe leidt."
+  },
+  "weddings": {
+    "title": "Bruiloften en events",
+    "subtitle": "Iconische aankomsten van kust tot keizersteden — trouwauto’s en colonnes in heel Marokko."
+  },
+  "about": {
+    "title": "Over Accrocar",
+    "subtitle": "Een atelier van mobiliteit, sinds 2018 in handen van één familie."
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Luxe autoverhuur in Marrakech met VIP-levering in heel Marokko. Neem discreet contact op — we antwoorden binnen het uur.",
+    "deliveryNote": "Accrocar levert luxe auto’s als VIP-service aan hotels, riads, luchthavens, villa’s, residenties en events in heel Marokko. Vermeld stad en overdrachtsadres in uw bericht.",
+    "name": "Naam",
+    "email": "E-mail",
+    "phone": "Telefoon",
+    "message": "Bericht",
+    "send": "Versturen",
+    "whatsappPrefill": "Hallo Accrocar,\n\nIk ben geïnteresseerd in luxe autoverhuur in Marrakech met VIP-levering in Marokko.\n\nNaam: {{name}}\nE-mail: {{email}}\nTelefoon: {{phone}}\n\n{{message}}",
+    "sentEyebrow": "Verzonden",
+    "sentTitle": "Dank u. We reageren binnen het uur.",
+    "linkWhatsapp": "Reserveren via WhatsApp",
+    "eyebrowPrivately": "Discreet",
+    "eyebrowHouse": "Huis",
+    "eyebrowDirect": "Direct",
+    "faqEyebrow": "Vragen",
+    "faqTitle": "Enkele antwoorden, voordat u schrijft.",
+    "faqItems": [
+      {
+        "q": "Werkt u alleen in Marrakech?",
+        "a": "Marrakech is onze basis — en we leveren luxe huurauto’s als VIP-service in heel Marokko: Casablanca, Rabat, Tanger, Agadir, Essaouira, Ouarzazate, Fès en verder op aanvraag."
+      },
+      {
+        "q": "Waar kunt u een auto leveren?",
+        "a": "Bij uw hotel, riad, villa, luchthaven, residentie of eventlocatie. We coördineren de VIP-overdracht discreet en bevestigen het exacte adres vooraf."
+      },
+      {
+        "q": "Hoe snel kunt u een auto regelen?",
+        "a": "Vaak dezelfde dag als het model beschikbaar is en de logistiek het toelaat. Voor VIP-levering in heel Marokko bevestigen we timing en route privé."
+      },
+      {
+        "q": "Biedt u chauffeurs buiten Marrakech?",
+        "a": "Ja — de huur kan een privéchauffeur omvatten in Marrakech of voor routes door heel Marokko, afhankelijk van beschikbaarheid."
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Luxe autoverhuur in Marrakech met VIP-levering in heel Marokko",
+    "heroPrefix": "Luxe autoverhuur,",
+    "heroAccent": "VIP geleverd",
+    "heroSuffix": " in heel Marokko.",
+    "locationCity": "Marrakech",
+    "madeIn": "Verankerd in Marrakech · voor heel Marokko",
+    "rights": "Alle rechten voorbehouden",
+    "menu": "Menu",
+    "contact": "Contact",
+    "follow": "Volg ons"
+  },
+  "seo": {
+    "titleSuffix": " — Accrocar | Luxe autoverhuur Marrakech",
+    "defaultTitle": "Accrocar — Luxe autoverhuur in Marrakech met VIP-levering in heel Marokko",
+    "home": {
+      "title": "Luxe autoverhuur in Marrakech",
+      "description": "Accrocar biedt luxe autoverhuur in Marrakech met VIP-levering in heel Marokko. Ferrari, Lamborghini, Rolls-Royce, Bentley, Range Rover, privéchauffeur en overdracht bij hotel, riad, villa of luchthaven.",
+      "keywords": "luxe autoverhuur Marrakech, luxe auto huren Marokko, VIP levering auto Marokko, Ferrari Marrakech, Lamborghini Marrakech, Range Rover Marrakech, privéchauffeur Marokko",
+      "jsonLdDescription": "Luxe autoverhuur in Marrakech met VIP-levering in heel Marokko, privéchauffeur en VIP-vervoer sinds 2018."
+    },
+    "fleet": {
+      "title": "De vloot",
+      "description": "Ontdek de Accrocar-vloot — luxe SUV’s, sedans, busjes en topklasse beschikbaar in Marrakech met VIP-levering in Casablanca, Rabat, Tanger, Agadir en heel Marokko.",
+      "keywords": "luxe autoverhuur Marrakech, luxe auto huren Marokko, VIP levering auto Marokko, luxe SUV Marrakech, Range Rover Marrakech, Bentley Marokko, Mercedes V-Klasse Marokko"
+    },
+    "carDetail": {
+      "description": "Huur een {{brand}} {{model}} in Marrakech bij Accrocar — VIP-levering naar hotel, riad, luchthaven of villa overal in Marokko. {{description}}",
+      "keywords": "{{brand}} {{model}} Marrakech, luxe autoverhuur Marrakech, {{brand}} Marokko, VIP levering auto Marokko, luxe auto huren Marokko",
+      "productDescription": "{{description}}"
+    },
+    "vip": {
+      "title": "VIP-services",
+      "description": "Accrocar VIP — luxe autoverhuur in Marrakech, luchthaven- en privéjettransfers en VIP-levering aan hotels, villa’s en residenties in heel Marokko.",
+      "keywords": "luxe autoverhuur Marrakech, VIP levering Marokko, VIP vervoer Marokko, luxe luchthaventransfer Marrakech, privéjet Marokko"
+    },
+    "chauffeur": {
+      "title": "Privéchauffeur",
+      "description": "Privéchauffeur in Marokko — Engels of Frans, in pak en opgeleid in gastvrijheid. Per uur, per dag of voor uw volledige nationale route.",
+      "keywords": "privéchauffeur Marokko, privéchauffeur Marrakech, Engelstalige chauffeur Marokko, luxe chauffeur Casablanca, VIP vervoer Marokko"
+    },
+    "weddings": {
+      "title": "Bruiloften en events",
+      "description": "Trouwauto’s, colonnes en filmische aankomsten voor bruiloften en events in Marokko — Marrakech, Essaouira, Rabat en maatwerk met Rolls-Royce, Bentley en meer.",
+      "keywords": "trouwauto Marokko, luxe trouwvervoer Marrakech, Rolls-Royce bruiloft Marokko, colonne Casablanca, eventvervoer Marokko"
+    },
+    "about": {
+      "title": "Het huis",
+      "description": "Accrocar is een luxe autoverhuurhuis met basis in Marrakech sinds 2018 — VIP-levering in heel Marokko, privéchauffeur en premium mobiliteit voor veeleisende gasten.",
+      "keywords": "Accrocar Marokko, luxe autoverhuur Marrakech, VIP levering Marokko, over Accrocar"
+    },
+    "contact": {
+      "title": "Contact en reservering",
+      "description": "Neem contact op met Accrocar voor luxe autoverhuur in Marrakech met VIP-levering in heel Marokko. We antwoorden binnen het uur — WhatsApp, e-mail of afspraak.",
+      "keywords": "contact Accrocar Marokko, luxe auto reserveren Marrakech, WhatsApp luxe autohuur Marokko, VIP levering auto Marokko"
+    }
+  },
+  "bookingWhatsapp": {
+    "greeting": "Hallo Accrocar,",
+    "intent": "Ik wil graag de {{carName}} reserveren met VIP-levering in Marokko.",
+    "detailsHeader": "Reserveringsgegevens:",
+    "lineCar": "- Auto: {{carName}}",
+    "lineDateRange": "- Data: {{start}} tot {{end}}",
+    "lineStart": "- Startdatum: {{date}}",
+    "lineEnd": "- Einddatum: {{date}}",
+    "lineDuration": "- Duur: {{duration}}",
+    "lineFullName": "- Volledige naam: {{name}}",
+    "linePhone": "- Telefoon: {{phone}}",
+    "linePhoneSplit": "- Telefoon: +{{cc}} {{national}}",
+    "lineDeliveryCity": "- Leveringsstad: {{city}}",
+    "lineDeliveryAddress": "- Adres / locatie overdracht: {{address}}",
+    "lineCountry": "",
+    "optionalWithMessage": "- Bericht: {{message}}",
+    "closing": "Bevestig alstublieft beschikbaarheid, definitieve voorwaarden en de VIP-levering."
+  },
+  "vipPage": {
+    "eyebrow": "Uitsluitend op afspraak",
+    "cards": [
+      {
+        "title": "Zelf rijden",
+        "body": "Neem het stuur. Kustwegen naar Essaouira, passen door de Atlas, de Agafay-woestijn — of een rit naar Casablanca wanneer uw route daarom vraagt."
+      },
+      {
+        "title": "Privéchauffeur",
+        "body": "Een Engelstalige of Franstalige chauffeur, in pak en professioneel getraind, naar uw wens inzetbaar."
+      },
+      {
+        "title": "Bruiloften en events",
+        "body": "Filmische aankomsten. Trouwauto’s, colonnes en merkactivaties."
+      },
+      {
+        "title": "Rondreizen op maat",
+        "body": "Meerdaagse routes door Fès, Rabat, de kust en het zuiden — met dezelfde discretie als in ons huis in Marrakech."
+      }
+    ]
+  },
+  "chauffeurPage": {
+    "heroAlt": "Privéchauffeur in Marokko",
+    "heroEyebrow": "Uren, dagen of uw hele verblijf",
+    "standardEyebrow": "De norm",
+    "standardTitle": "Stil, precies, discreet aanwezig.",
+    "standardBody": "Onze chauffeurs komen uit de huizen die gastvrijheid in Marrakech bepalen en worden in Marokko ingezet als uw route dat vraagt. Frans en Engels; vaak Arabisch, Spaans of Italiaans. Pak op maat — nooit met logo — en het oordeel om te verschijnen of te verdwijnen.",
+    "tiers": [
+      {
+        "hours": "04",
+        "label": "Halve dag",
+        "body": "Een ochtend in de souks, daarna terug naar uw riad."
+      },
+      {
+        "hours": "08",
+        "label": "Volle dag",
+        "body": "Van de stad naar de Atlas, van de Atlas naar de duinen — in een rustig tempo."
+      },
+      {
+        "hours": "24",
+        "label": "Verblijf",
+        "body": "Dagelijkse beschikbaarheid over meerdere dagen. In pak en met stilzwijgen."
+      }
+    ]
+  },
+  "weddingsPage": {
+    "heroAlt": "Bruiloftsaankomst in Marrakech",
+    "heroEyebrow": "Een aankomst die u maar één keer hoeft vast te leggen",
+    "services": [
+      {
+        "n": "01",
+        "title": "Trouwauto’s",
+        "body": "Rolls-Royce Phantom, Bentley Continental, Mercedes 500SL — gerestaureerd, fotogeniek, foutloos."
+      },
+      {
+        "n": "02",
+        "title": "Colonnes",
+        "body": "Colonnes tot zes auto’s voor gasten, fotografen, familie — choreografie van route en timing."
+      },
+      {
+        "n": "03",
+        "title": "Activaties",
+        "body": "Samenwerkingen met merken en editoriale producties van Marrakech tot de kust en keizersteden van Marokko."
+      }
+    ]
+  },
+  "aboutPage": {
+    "heroAlt": "Accrocar-atelier",
+    "heroImageTitle": "Het Accrocar-huis in Marrakech",
+    "headerEyebrow": "Marrakech — Sinds 2018",
+    "disciplineEyebrow": "Onze discipline",
+    "disciplineTitle": "Minder, maar beter.",
+    "disciplineP1": "Accrocar is een atelier in de oorspronkelijke zin van het woord — klein, precies, nooit gehaast. We houden een selecte vloot en wijzen de rest af. We nemen zelf de telefoon op.",
+    "disciplineP2": "Het huis werd in 2018 opgericht door een familie met twee decennia ervaring in gastvrijheid, niet in de autowereld. Die discipline — stilte, vooruitdenken, terughoudendheid — brengen we mee bij elke aankomst.",
+    "milestones": [
+      {
+        "year": "2018",
+        "label": "Oprichting",
+        "body": "Eén Bentley, één nummer, één gastenlijst."
+      },
+      {
+        "year": "2020",
+        "label": "Atelier",
+        "body": "Ons voorbereidingsatelier opent in de Hivernage."
+      },
+      {
+        "year": "2023",
+        "label": "Concierge",
+        "body": "Conciergedienst 24/7 en overdrachten voor privévluchten."
+      },
+      {
+        "year": "2026",
+        "label": "Vandaag",
+        "body": "Twintig auto’s, zes chauffeurs, één standaard."
+      }
+    ]
+  }
+}

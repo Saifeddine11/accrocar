@@ -1,0 +1,421 @@
+{
+  "nav": {
+    "home": "Home",
+    "fleet": "Fleet",
+    "vip": "VIP Services",
+    "chauffeur": "Private Chauffeur",
+    "weddings": "Weddings and Events",
+    "about": "About",
+    "contact": "Contact",
+    "book": "Book"
+  },
+  "common": {
+    "explore": "Explore",
+    "discover": "Discover",
+    "reserve": "Reserve",
+    "whatsapp": "Reserve via WhatsApp",
+    "viewAll": "View all",
+    "fromPerDay": "from {{price}} / day",
+    "perDay": "/ day",
+    "scrollToExplore": "Scroll to explore",
+    "loading": "Loading",
+    "priceFromDay": "From {{price}}€ / day",
+    "specsOnRequest": "Full specifications are confirmed when you reserve."
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Morocco — Est. 2018",
+      "title": "Accrocar",
+      "subtitle": "Luxury Car Rental in Marrakech with VIP Delivery Across Morocco",
+      "lede": "Luxury car rental in Marrakech, curated premium vehicles, private chauffeurs on request, and VIP delivery to hotels, riads, airports, private villas, and event venues across Morocco — for guests who expect every arrival to feel effortless, discreet, and exact.",
+      "ctaFleet": "Explore the Fleet",
+      "ctaWhatsapp": "Reserve via WhatsApp",
+      "imageAlt": "Bentley at Royal Mansour Marrakech for Accrocar luxury car rental"
+    },
+    "intro": {
+      "eyebrow": "A House of Motoring",
+      "title": "An understated atelier of rarefied automobiles, made available with quiet precision.",
+      "body": "From Marrakech to Casablanca, the Atlantic coast to Ouarzazate — Accrocar choreographs every arrival. Each automobile is hand-prepared, delivered where you are, and privately stewarded. Restraint is our signature."
+    },
+    "brands": {
+      "eyebrow": "Maisons represented"
+    },
+    "featured": {
+      "eyebrow": "Featured automobiles",
+      "title": "A curated selection",
+      "cta": "View the full fleet"
+    },
+    "experience": {
+      "eyebrow": "The Accrocar experience",
+      "title": "Beyond rental. A standard of arrival.",
+      "imageAlt": "Range Rover delivered by Accrocar for luxury car rental in Marrakech",
+      "imageTitle": "Accrocar luxury car rental experience in Marrakech",
+      "items": {
+        "delivery": {
+          "title": "VIP delivery across Morocco",
+          "body": "Your luxury car is delivered by VIP handover across Morocco — hotel, riad, airport, villa, or event venue, from Marrakech to Rabat, Tangier to Agadir, detailed to a premium standard."
+        },
+        "concierge": {
+          "title": "24/7 concierge",
+          "body": "A single point of contact, day or night. Restaurant reservations, dunes excursions, private flights — arranged before you ask."
+        },
+        "discretion": {
+          "title": "Absolute discretion",
+          "body": "We do not photograph our clientele. We do not share itineraries. Privacy is the most luxurious commodity we offer."
+        }
+      }
+    },
+    "services": {
+      "eyebrow": "Services",
+      "title": "Four ways to travel.",
+      "items": {
+        "self": {
+          "title": "Self-Drive Hire",
+          "body": "Take the wheel. Coast roads toward Essaouira, Atlas passes, the Agafay desert — or a run to Casablanca when the itinerary demands it."
+        },
+        "chauffeur": {
+          "title": "Private Chauffeur",
+          "body": "An English- or French-speaking chauffeur, suited and trained, at your discretion."
+        },
+        "wedding": {
+          "title": "Weddings and Events",
+          "body": "Cinematic arrivals. Bridal cars, motorcades, brand activations."
+        },
+        "tours": {
+          "title": "Bespoke Tours",
+          "body": "Multi-day itineraries through Fès, Rabat, the coast, and the south — choreographed with the same discretion as our Marrakech house."
+        }
+      }
+    },
+    "why": {
+      "eyebrow": "Why Accrocar",
+      "title": "The standards we keep.",
+      "points": {
+        "fleet": {
+          "title": "A fleet held to atelier standard",
+          "body": "Every automobile is detailed by hand before each delivery. No exceptions."
+        },
+        "team": {
+          "title": "Trained by hospitality, not motoring",
+          "body": "Our team is recruited from the houses that define the Marrakech standard."
+        },
+        "trust": {
+          "title": "Trusted by editors, founders, royalty",
+          "body": "Six years of references in the rooms where references matter."
+        },
+        "speed": {
+          "title": "Same-day arrangement, often",
+          "body": "When timing is critical — in Marrakech or onward to your next Moroccan address — we move with quiet urgency."
+        }
+      }
+    },
+    "testimonials": {
+      "eyebrow": "Said in confidence",
+      "title": "Voices."
+    },
+    "finalCta": {
+      "eyebrow": "Begin",
+      "title": "Your Morocco, considered.",
+      "body": "Tell us the dates, the city, and the doors will open.",
+      "imageAlt": "Porsche luxury car at night for Accrocar reservation in Marrakech",
+      "imageTitle": "Begin an Accrocar luxury car reservation in Marrakech",
+      "cta": "Begin a reservation"
+    }
+  },
+  "fleet": {
+    "title": "The Fleet",
+    "subtitle": "A premium roster for luxury car rental in Marrakech — available with VIP delivery across Morocco.",
+    "allBrands": "All brands",
+    "allCategories": "All categories",
+    "filterBrands": "Brand",
+    "filterCategories": "Category",
+    "filterPrice": "Price",
+    "sortDefault": "Default",
+    "sortPriceAsc": "Price: Low to High",
+    "sortPriceDesc": "Price: High to Low",
+    "categoryLabels": {
+      "city-car": "City Car",
+      "compact": "Compact",
+      "compact-premium": "Compact Premium",
+      "compact-sport": "Compact Sport",
+      "economy": "Economy",
+      "executive-sedan": "Executive Sedan",
+      "luxury-suv": "Luxury SUV",
+      "luxury-van": "Luxury Van",
+      "premium-sedan": "Premium Sedan",
+      "premium-suv": "Premium SUV",
+      "sport-compact": "Sport Compact",
+      "sport-suv": "Sport SUV",
+      "suv": "SUV",
+      "suv-premium": "SUV Premium",
+      "ultra-luxury-suv": "Ultra Luxury SUV"
+    },
+    "heroEyebrow": "Marrakech, 2026"
+  },
+  "booking": {
+    "specLabel": "Specification",
+    "specTitle": "Engineering, considered.",
+    "leftColumnBlurb": "Select your dates, delivery city, and handover address — hotel, riad, airport, or residence anywhere in Morocco. We confirm availability and final terms privately.",
+    "formEyebrow": "Reservation",
+    "deliveryCity": "Delivery city",
+    "deliveryCityPlaceholder": "Select a city",
+    "deliveryCityOther": "Specify your city",
+    "deliveryCityOtherPlaceholder": "City name",
+    "deliveryAddress": "Delivery address",
+    "deliveryAddressPlaceholder": "Hotel, riad, airport terminal, villa, or full address",
+    "deliveryCities": {
+      "marrakech": "Marrakech",
+      "casablanca": "Casablanca",
+      "rabat": "Rabat",
+      "tangier": "Tangier",
+      "agadir": "Agadir",
+      "essaouira": "Essaouira",
+      "ouarzazate": "Ouarzazate",
+      "fes": "Fès",
+      "other": "Other"
+    },
+    "startDate": "Start date",
+    "endDate": "End date",
+    "duration": "Duration",
+    "durationOneDay": "1 day",
+    "durationDays": "{{count}} days",
+    "fullName": "Full name",
+    "phone": "Phone",
+    "optionalMessage": "Message (optional)",
+    "optionalPlaceholder": "Flight number, delivery address, child seats…",
+    "submit": "Reserve via WhatsApp",
+    "fixForm": "Please complete the following",
+    "whatsappHint": "We only open WhatsApp once the form is valid. Your message opens in a new tab.",
+    "errorStartDate": "Please select a start date.",
+    "errorEndDate": "Please select an end date.",
+    "errorEndBeforeStart": "The end date must be on or after the start date.",
+    "errorFullName": "Please enter your full name.",
+    "errorPhone": "Please enter a valid phone number, including country code.",
+    "errorDeliveryCity": "Please select a delivery city.",
+    "errorDeliveryCityOther": "Please enter your city.",
+    "errorDeliveryAddress": "Please enter the delivery address or venue."
+  },
+  "vip": {
+    "title": "VIP Services",
+    "subtitle": "Private aviation transfers, residence and hotel delivery across Morocco, twenty-four-hour concierge."
+  },
+  "chauffeur": {
+    "title": "Private Chauffeur",
+    "subtitle": "Hours, days, or your full stay — in Marrakech or wherever your Moroccan itinerary leads."
+  },
+  "weddings": {
+    "title": "Weddings and Events",
+    "subtitle": "Cinematic arrivals from Marrakech to the coast — motorcades and bridal cars, choreographed across Morocco."
+  },
+  "about": {
+    "title": "About Accrocar",
+    "subtitle": "An atelier of motoring, held in the hands of one family since 2018."
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Luxury car rental in Marrakech with VIP delivery across Morocco. Reach us privately — we respond within the hour.",
+    "deliveryNote": "Accrocar delivers luxury cars by VIP handover to hotels, riads, airports, private villas, residences, and event venues across Morocco. Share your city and handover details when you write.",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message",
+    "send": "Send",
+    "whatsappPrefill": "Hello Accrocar,\n\nI would like luxury car rental in Marrakech with VIP delivery in Morocco.\n\nName: {{name}}\nEmail: {{email}}\nPhone: {{phone}}\n\n{{message}}",
+    "sentEyebrow": "Sent",
+    "sentTitle": "Thank you. We will respond within the hour.",
+    "linkWhatsapp": "Reserve via WhatsApp",
+    "eyebrowPrivately": "Privately",
+    "eyebrowHouse": "House",
+    "eyebrowDirect": "Direct",
+    "faqEyebrow": "Questions",
+    "faqTitle": "A few answers, before you write.",
+    "faqItems": [
+      {
+        "q": "Do you only operate in Marrakech?",
+        "a": "Marrakech is our base — and we deliver luxury rental cars by VIP handover across Morocco: Casablanca, Rabat, Tangier, Agadir, Essaouira, Ouarzazate, Fès, and beyond by arrangement."
+      },
+      {
+        "q": "Where can you deliver a vehicle?",
+        "a": "To your hotel, riad, private villa, airport, residence, or event venue. We coordinate VIP handover discreetly and confirm the exact address with you in advance."
+      },
+      {
+        "q": "How quickly can you arrange a car?",
+        "a": "Often the same day when the model is available and logistics allow. For VIP delivery across Morocco, we confirm timing and routing privately."
+      },
+      {
+        "q": "Do you offer chauffeurs outside Marrakech?",
+        "a": "Yes — your rental can include a private chauffeur in Marrakech or for itineraries across Morocco, subject to availability."
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Luxury Car Rental in Marrakech with VIP Delivery Across Morocco",
+    "heroPrefix": "Luxury rental,",
+    "heroAccent": "VIP-delivered",
+    "heroSuffix": " across Morocco.",
+    "locationCity": "Marrakech",
+    "madeIn": "Rooted in Marrakech · serving Morocco",
+    "rights": "All rights reserved",
+    "menu": "Menu",
+    "contact": "Contact",
+    "follow": "Follow"
+  },
+  "seo": {
+    "titleSuffix": " — Accrocar | Luxury Car Rental Marrakech",
+    "defaultTitle": "Accrocar — Luxury Car Rental in Marrakech with VIP Delivery Across Morocco",
+    "home": {
+      "title": "Luxury Car Rental in Marrakech",
+      "description": "Accrocar offers luxury car rental in Marrakech with VIP delivery across Morocco. Ferrari, Lamborghini, Rolls-Royce, Bentley, Range Rover, private chauffeur, and hotel, riad, villa, or airport handover.",
+      "keywords": "luxury car rental Marrakech, luxury car rental Morocco, VIP car delivery Morocco, Ferrari rental Marrakech, Lamborghini rental Marrakech, Range Rover Marrakech, private chauffeur Morocco",
+      "jsonLdDescription": "Luxury car rental in Marrakech with VIP delivery across Morocco, private chauffeur service, and VIP transport since 2018."
+    },
+    "fleet": {
+      "title": "The Fleet",
+      "description": "Explore the Accrocar fleet — premium SUVs, sedans, luxury vans, and ultra-luxury cars available in Marrakech with VIP delivery to Casablanca, Rabat, Tangier, Agadir, and across Morocco.",
+      "keywords": "luxury car rental Marrakech, luxury car rental Morocco, VIP car delivery Morocco, luxury SUV Marrakech, Range Rover Marrakech, Bentley Morocco, Mercedes V-Class Morocco"
+    },
+    "carDetail": {
+      "description": "Rent a {{brand}} {{model}} in Marrakech with Accrocar — VIP delivery to your hotel, riad, airport, or villa anywhere in Morocco. {{description}}",
+      "keywords": "{{brand}} {{model}} Marrakech, luxury car rental Marrakech, {{brand}} rental Morocco, VIP car delivery Morocco, luxury car hire Morocco",
+      "productDescription": "{{description}}"
+    },
+    "vip": {
+      "title": "VIP Services",
+      "description": "Accrocar VIP — luxury car rental in Marrakech, airport and private jet transfers, and VIP delivery to hotels, villas, and residences across Morocco.",
+      "keywords": "luxury car rental Marrakech, VIP delivery Morocco, VIP transport Morocco, luxury airport transfer Marrakech, private jet transfer Morocco"
+    },
+    "chauffeur": {
+      "title": "Private Chauffeur",
+      "description": "Private chauffeur in Morocco — English- and French-speaking, suited, trained in hospitality. Hourly, daily, or for your full itinerary from Marrakech to the coast and beyond.",
+      "keywords": "VIP chauffeur Morocco, private chauffeur Marrakech, English speaking driver Morocco, luxury chauffeur Casablanca, private driver Agadir"
+    },
+    "weddings": {
+      "title": "Weddings and Events",
+      "description": "Bridal cars, motorcades, and cinematic arrivals for weddings and events across Morocco — Marrakech, Essaouira, Rabat, and bespoke destinations with Accrocar.",
+      "keywords": "wedding car Morocco, luxury wedding transport Marrakech, Rolls Royce wedding Morocco, bridal car Casablanca, event cars Morocco"
+    },
+    "about": {
+      "title": "The House",
+      "description": "Accrocar is a luxury car rental house based in Marrakech since 2018 — VIP delivery across Morocco, private chauffeur service, and premium mobility for discerning guests.",
+      "keywords": "Accrocar Morocco, luxury car rental Marrakech, VIP delivery Morocco, about Accrocar"
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Contact Accrocar for luxury car rental in Marrakech with VIP delivery across Morocco. We respond within the hour — WhatsApp, email, or by appointment.",
+      "keywords": "contact Accrocar Morocco, luxury car booking Marrakech, WhatsApp luxury car rental Morocco, VIP car delivery Morocco"
+    }
+  },
+  "bookingWhatsapp": {
+    "greeting": "Hello Accrocar,",
+    "intent": "I would like to book the {{carName}} with VIP delivery in Morocco.",
+    "detailsHeader": "Booking details:",
+    "lineCar": "- Car: {{carName}}",
+    "lineStart": "- Start date: {{date}}",
+    "lineEnd": "- End date: {{date}}",
+    "lineDuration": "- Duration: {{duration}}",
+    "lineFullName": "- Full name: {{name}}",
+    "linePhone": "- Phone: {{phone}}",
+    "lineDeliveryCity": "- Delivery city: {{city}}",
+    "lineDeliveryAddress": "- Delivery address / venue: {{address}}",
+    "lineCountry": "- Country: {{country}}",
+    "optionalWithMessage": "Additional message:\n{{message}}",
+    "closing": "Please confirm availability, final terms, and VIP delivery arrangements."
+  },
+  "vipPage": {
+    "eyebrow": "By appointment only",
+    "cards": [
+      {
+        "title": "Self-Drive Hire",
+        "body": "Take the wheel. Coast roads toward Essaouira, Atlas passes, the Agafay desert — or a run to Casablanca when the itinerary demands it."
+      },
+      {
+        "title": "Private Chauffeur",
+        "body": "An English- or French-speaking chauffeur, suited and trained, at your discretion."
+      },
+      {
+        "title": "Weddings and Events",
+        "body": "Cinematic arrivals. Bridal cars, motorcades, brand activations."
+      },
+      {
+        "title": "Bespoke Tours",
+        "body": "Multi-day itineraries through Fès, Rabat, the coast, and the south — choreographed with the same discretion as our Marrakech house."
+      }
+    ]
+  },
+  "chauffeurPage": {
+    "heroAlt": "Private chauffeur in Morocco",
+    "heroEyebrow": "Hours, days, or a residency",
+    "standardEyebrow": "The standard",
+    "standardTitle": "Quiet, exact, present.",
+    "standardBody": "Our chauffeurs are recruited from the houses that define hospitality in Marrakech and deployed across Morocco when your itinerary requires it. They speak French and English; many also Arabic, Spanish, or Italian. Bespoke navy or charcoal — never logos — and the judgment to know when to step forward and when to disappear.",
+    "tiers": [
+      {
+        "hours": "04",
+        "label": "Half day",
+        "body": "A morning at the souks, a return to the riad."
+      },
+      {
+        "hours": "08",
+        "label": "Full day",
+        "body": "City to Atlas, Atlas to dunes. A patient pace."
+      },
+      {
+        "hours": "24",
+        "label": "Residency",
+        "body": "Daily availability across multiple days. Suited and silent."
+      }
+    ]
+  },
+  "weddingsPage": {
+    "heroAlt": "Wedding arrival in Marrakech",
+    "heroEyebrow": "An arrival worth photographing once",
+    "services": [
+      {
+        "n": "01",
+        "title": "Bridal cars",
+        "body": "Rolls-Royce Phantom, Bentley Continental, Mercedes 500SL — restored, photographed, faultless."
+      },
+      {
+        "n": "02",
+        "title": "Motorcades",
+        "body": "Six-car convoys for guests, photographers, parents — choreographed by route and arrival."
+      },
+      {
+        "n": "03",
+        "title": "Activations",
+        "body": "Brand collaborations and editorial commissions from Marrakech to Morocco's coast and imperial cities."
+      }
+    ]
+  },
+  "aboutPage": {
+    "heroAlt": "Accrocar atelier",
+    "heroImageTitle": "The Accrocar house in Marrakech",
+    "headerEyebrow": "Marrakech — Since 2018",
+    "disciplineEyebrow": "Our discipline",
+    "disciplineTitle": "Less, but better.",
+    "disciplineP1": "Accrocar is an atelier in the original sense — small, exact, and unhurried. We hold a tight roster of automobiles and refuse the rest. We answer the phone and we answer it ourselves.",
+    "disciplineP2": "The house was founded in 2018 by a family that spent two decades in hospitality, not in motoring. We bring that discipline — silence, anticipation, restraint — to every arrival.",
+    "milestones": [
+      {
+        "year": "2018",
+        "label": "Founded",
+        "body": "A single Bentley, a single number, a single guest list."
+      },
+      {
+        "year": "2020",
+        "label": "Atelier",
+        "body": "Our preparation atelier opens in the Hivernage."
+      },
+      {
+        "year": "2023",
+        "label": "Concierge",
+        "body": "24/7 concierge desk and private aviation handovers introduced."
+      },
+      {
+        "year": "2026",
+        "label": "Today",
+        "body": "Twenty automobiles, six chauffeurs, one standard."
+      }
+    ]
+  }
+}
