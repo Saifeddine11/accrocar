@@ -21,7 +21,7 @@ const Contact = lazy(() => import('./pages/Contact'))
 
 function PageFallback() {
   return (
-    <div className="min-h-[60vh] flex items-center justify-center">
+    <div className="min-h-screen flex items-center justify-center">
       <span className="eyebrow">
         {i18next.t('common.loading')}
       </span>

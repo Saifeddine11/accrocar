@@ -1,15 +1,20 @@
 import { Helmet } from 'react-helmet-async'
 import { useTranslation } from 'react-i18next'
+import { useLocation } from 'react-router-dom'
+
+const BASE_URL = 'https://accrocar.com'
 
 /**
  * Seo — declarative meta + structured-data per page.
- * Title pattern uses i18n: "{title}{seo.titleSuffix}" or seo.defaultTitle.
+ *
+ * Canonical is always emitted: explicit `url` prop takes priority,
+ * otherwise it is derived from the current route (pathname only, no query).
  */
 export default function Seo({
   title,
   description,
   keywords,
-  image = 'https://accrocar.com/bently.webp',
+  image = `${BASE_URL}/bently.webp`,
   imageAlt,
   imageType = 'image/webp',
   imageWidth = '1536',
@@ -21,16 +26,24 @@ export default function Seo({
   jsonLd,
 }) {
   const { t } = useTranslation()
+  const location = useLocation()
+
   const fullTitle = title
     ? `${title}${t('seo.titleSuffix')}`
     : t('seo.defaultTitle')
+
+  // Always canonical to https://accrocar.com — no trailing slash except root
+  const canonicalPath = location.pathname === '/' ? '/' : location.pathname.replace(/\/$/, '')
+  const canonicalUrl = url || `${BASE_URL}${canonicalPath}`
 
   return (
     <Helmet>
       <title>{fullTitle}</title>
       {description && <meta name="description" content={description} />}
       {keywords && <meta name="keywords" content={keywords} />}
-      {url && <link rel="canonical" href={url} />}
+
+      <link rel="canonical" href={canonicalUrl} />
+
       {preloadImage && (
         <link
           rel="preload"
@@ -54,12 +67,12 @@ export default function Seo({
 
       <meta property="og:title" content={fullTitle} />
       {description && <meta property="og:description" content={description} />}
+      <meta property="og:url" content={canonicalUrl} />
       <meta property="og:image" content={image} />
       <meta property="og:image:type" content={imageType} />
       <meta property="og:image:width" content={imageWidth} />
       <meta property="og:image:height" content={imageHeight} />
       {imageAlt && <meta property="og:image:alt" content={imageAlt} />}
-      {url && <meta property="og:url" content={url} />}
 
       <meta name="twitter:title" content={fullTitle} />
       {description && <meta name="twitter:description" content={description} />}

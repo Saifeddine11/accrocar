@@ -7,6 +7,8 @@
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <meta name="theme-color" content="#F2F1ED" />
+
+    <!-- Hero image preload — browser picks correct size before parsing CSS -->
     <link
       rel="preload"
       as="image"
@@ -25,76 +27,80 @@
     />
 
     <!-- Primary Meta Tags -->
-    <title>Accrocar — Luxury Car Rental in Marrakech with VIP Delivery Across Morocco</title>
-    <meta name="title" content="Accrocar — Luxury Car Rental in Marrakech with VIP Delivery Across Morocco" />
+    <title>Luxury Car Rental Marrakech | VIP Delivery Morocco | Accrocar</title>
     <meta
       name="description"
-      content="Accrocar offers luxury car rental in Marrakech with VIP delivery across Morocco. Ferrari, Lamborghini, Rolls-Royce, Bentley, Range Rover, private chauffeur, and hotel, riad, villa, or airport handover."
+      content="Accrocar — location de voitures de luxe à Marrakech avec livraison VIP partout au Maroc. Bentley, Range Rover, Porsche, chauffeur privé et remise hôtel, riad ou aéroport."
     />
     <meta
       name="keywords"
-      content="luxury car rental Marrakech, Ferrari rental Marrakech, Lamborghini rental Marrakech, Rolls Royce rental Marrakech, private chauffeur Marrakech, Bentley Marrakech, supercar rental Morocco"
+      content="location voiture luxe Marrakech, luxury car rental Marrakech, chauffeur privé Marrakech, Bentley Marrakech, Range Rover Marrakech, Porsche Cayenne Marrakech, livraison VIP Maroc"
     />
     <meta name="author" content="Accrocar" />
     <meta name="robots" content="index, follow, max-image-preview:large" />
-    <link rel="canonical" href="https://accrocar.com/" />
+    <!-- Canonical is injected per-route by react-helmet-async (Seo.jsx) -->
 
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://accrocar.com/" />
-    <meta property="og:title" content="Accrocar — Luxury Car Rental in Marrakech with VIP Delivery Across Morocco" />
+    <meta property="og:site_name" content="Accrocar" />
+    <meta property="og:title" content="Luxury Car Rental Marrakech | VIP Delivery Morocco | Accrocar" />
     <meta
       property="og:description"
-      content="Luxury car rental in Marrakech with VIP delivery across Morocco. Premium cars, private chauffeur service, and discreet delivery to hotels, riads, villas, and airports."
+      content="Luxury car rental in Marrakech with VIP delivery across Morocco. Premium cars, private chauffeur, discreet delivery to hotels, riads, villas and airports."
     />
     <meta property="og:image" content="https://accrocar.com/bently.webp" />
     <meta property="og:image:type" content="image/webp" />
     <meta property="og:image:width" content="1536" />
     <meta property="og:image:height" content="1024" />
-    <meta property="og:image:alt" content="Bentley at Royal Mansour Marrakech for Accrocar luxury car rental" />
+    <meta property="og:image:alt" content="Bentley at Royal Mansour Marrakech — Accrocar luxury car rental" />
     <meta property="og:locale" content="en_US" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:url" content="https://accrocar.com/" />
-    <meta name="twitter:title" content="Accrocar — Luxury Car Rental in Marrakech with VIP Delivery Across Morocco" />
+    <meta name="twitter:title" content="Luxury Car Rental Marrakech | VIP Delivery Morocco | Accrocar" />
     <meta
       name="twitter:description"
-      content="Luxury car rental in Marrakech with VIP delivery across Morocco. Premium cars, private chauffeur service, and discreet delivery to hotels, riads, villas, and airports."
+      content="Luxury car rental in Marrakech with VIP delivery across Morocco. Premium cars, private chauffeur, discreet delivery to hotels, riads, villas and airports."
     />
     <meta name="twitter:image" content="https://accrocar.com/bently.webp" />
-    <meta name="twitter:image:alt" content="Bentley at Royal Mansour Marrakech for Accrocar luxury car rental" />
+    <meta name="twitter:image:alt" content="Bentley at Royal Mansour Marrakech — Accrocar luxury car rental" />
 
-    <!-- Fonts: editorial serif + premium sans -->
+    <!-- Fonts: editorial serif + premium sans
+         display=optional prevents layout shift on first visit (no invisible text,
+         no late font swap); cached fonts (return visitors) load instantly. -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600;700&display=optional"
       rel="stylesheet"
     />
 
-    <!-- Structured data: Local Business -->
+    <!-- Structured data: AutoRental (local business) -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "AutoRental",
         "name": "Accrocar",
-        "description": "Luxury car rental in Marrakech with VIP delivery across Morocco, private chauffeur service, and premium handover at hotels, riads, villas, airports, and events.",
+        "description": "Luxury car rental in Marrakech with VIP delivery across Morocco. Private chauffeur, premium handover at hotels, riads, villas, airports, and events.",
         "url": "https://accrocar.com",
-        "telephone": "+212-713-155350",
+        "telephone": "+212713155350",
+        "email": "contact@accrocar.com",
         "priceRange": "$$$$",
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Marrakech",
+          "addressRegion": "Marrakech-Safi",
           "addressCountry": "MA"
         },
         "areaServed": {
-          "@type": "City",
-          "name": "Marrakech"
+          "@type": "Country",
+          "name": "Morocco"
         },
         "image": "https://accrocar.com/bently.webp",
+        "logo": "https://accrocar.com/logo.webp",
         "sameAs": [
-          "https://www.instagram.com/accro_car?igsh=cWFnZTh6NGZhb3Yx"
+          "https://www.instagram.com/accro_car"
         ]
       }
     </script>

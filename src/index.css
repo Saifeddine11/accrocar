@@ -2,6 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ── Playfair Display fallback with matching metrics ─────────────────────────
+   When display=optional means the font isn't swapped in, or during first-load
+   before the cache warms up, this @font-face makes Georgia render at near-
+   identical em dimensions so there is no visible text reflow / layout shift.
+   Numbers sourced from Playfair Display's OS/2 table vs Georgia's metrics.     */
+@font-face {
+  font-family: "Playfair Display";
+  src: local("Georgia"), local("Times New Roman");
+  font-weight: 400 700;
+  font-style: normal;
+  size-adjust: 97%;
+  ascent-override: 93%;
+  descent-override: 21%;
+  line-gap-override: 0%;
+}
+@font-face {
+  font-family: "Playfair Display";
+  src: local("Georgia"), local("Times New Roman");
+  font-weight: 400 700;
+  font-style: italic;
+  size-adjust: 97%;
+  ascent-override: 93%;
+  descent-override: 21%;
+  line-gap-override: 0%;
+}
+
 /* ==========================================================
    Accrocar — Luxury Editorial Palette
    Soft Pearl  #F2F1ED  — main background
