@@ -19,6 +19,7 @@ const Weddings = lazy(() => import('./pages/Weddings'))
 const About = lazy(() => import('./pages/About'))
 const Contact = lazy(() => import('./pages/Contact'))
 const LocationVoitureLuxeMarrakech = lazy(() => import('./pages/LocationVoitureLuxeMarrakech'))
+const LocationPorscheCayenneMarrakech = lazy(() => import('./pages/LocationPorscheCayenneMarrakech'))
 
 function PageFallback() {
   return (
@@ -56,6 +57,7 @@ export default function App() {
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/location-voiture-luxe-marrakech" element={<LocationVoitureLuxeMarrakech />} />
+            <Route path="/location-porsche-cayenne-marrakech" element={<LocationPorscheCayenneMarrakech />} />
             <Route path="*" element={<Home />} />
           </Routes>
         </AnimatePresence>
