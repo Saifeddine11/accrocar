@@ -40,7 +40,33 @@ export default function CarDetail() {
 
   const jsonLd = useMemo(() => {
     if (!car) return null
-    return {
+
+    const breadcrumb = {
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        {
+          '@type': 'ListItem',
+          position: 1,
+          name: 'Home',
+          item: 'https://accrocar.com/',
+        },
+        {
+          '@type': 'ListItem',
+          position: 2,
+          name: 'Fleet',
+          item: 'https://accrocar.com/fleet',
+        },
+        {
+          '@type': 'ListItem',
+          position: 3,
+          name: `${car.brand} ${car.model}`,
+          item: `https://accrocar.com/fleet/${car.id}`,
+        },
+      ],
+    }
+
+    const product = {
       '@context': 'https://schema.org',
       '@type': 'Product',
       name: `${car.brand} ${car.model}`,
@@ -50,14 +76,18 @@ export default function CarDetail() {
           description: car.description,
         }),
       brand: { '@type': 'Brand', name: car.brand },
-      ...(car.image ? { image: car.image } : {}),
+      // Absolute URL required for Google rich result eligibility
+      ...(car.image ? { image: `https://accrocar.com${car.image}` } : {}),
       offers: {
         '@type': 'Offer',
         priceCurrency: car.currency,
         price: car.pricePerDay,
         availability: 'https://schema.org/InStock',
+        url: `https://accrocar.com/fleet/${car.id}`,
       },
     }
+
+    return [breadcrumb, product]
   }, [car, t])
 
   if (!car) return <Navigate to="/fleet" replace />

@@ -59,11 +59,43 @@ export default function Footer() {
 
           <div className="md:col-span-2">
             <p className="eyebrow">{t('footer.contact')}</p>
-            <ul className="mt-6 space-y-3 text-obsidian/85">
-              <li>{t('footer.locationCity')}</li>
-              <li>{whatsappDisplayNumber()}</li>
-              <li>contact@accrocar.com</li>
-            </ul>
+            {/* NAP — Name / Address / Phone for local SEO */}
+            <address
+              className="mt-6 not-italic"
+              itemScope
+              itemType="https://schema.org/AutoRental"
+            >
+              <meta itemProp="name" content="Accrocar" />
+              <ul className="space-y-3 text-obsidian/85">
+                <li
+                  itemProp="address"
+                  itemScope
+                  itemType="https://schema.org/PostalAddress"
+                >
+                  <span itemProp="addressLocality">Marrakech</span>
+                  {', '}
+                  <span itemProp="addressCountry">Morocco</span>
+                </li>
+                <li>
+                  <a
+                    href="tel:+212713155350"
+                    className="link-reveal"
+                    itemProp="telephone"
+                  >
+                    {whatsappDisplayNumber()}
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="mailto:contact@accrocar.com"
+                    className="link-reveal"
+                    itemProp="email"
+                  >
+                    contact@accrocar.com
+                  </a>
+                </li>
+              </ul>
+            </address>
           </div>
 
           <div className="md:col-span-2">

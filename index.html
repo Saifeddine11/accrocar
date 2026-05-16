@@ -89,13 +89,27 @@
         "priceRange": "$$$$",
         "address": {
           "@type": "PostalAddress",
+          "streetAddress": "",
           "addressLocality": "Marrakech",
           "addressRegion": "Marrakech-Safi",
           "addressCountry": "MA"
         },
-        "areaServed": {
-          "@type": "Country",
-          "name": "Morocco"
+        "areaServed": [
+          { "@type": "Country", "name": "Morocco" },
+          { "@type": "City", "name": "Marrakech" },
+          { "@type": "City", "name": "Casablanca" },
+          { "@type": "City", "name": "Rabat" },
+          { "@type": "City", "name": "Agadir" },
+          { "@type": "City", "name": "Essaouira" },
+          { "@type": "City", "name": "Ouarzazate" },
+          { "@type": "City", "name": "Fès" }
+        ],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+212713155350",
+          "email": "contact@accrocar.com",
+          "contactType": "reservations",
+          "availableLanguage": ["French", "English", "Arabic"]
         },
         "image": "https://accrocar.com/bently.webp",
         "logo": "https://accrocar.com/logo.webp",
