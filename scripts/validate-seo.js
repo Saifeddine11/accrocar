@@ -16,15 +16,22 @@
 //   so DOM-level canonical parity requires a JS-rendering crawler and is
 //   asserted structurally from the sitemap here, not by scraping static HTML.
 
-import { readFileSync } from 'fs'
+import { readFileSync, existsSync } from 'fs'
 import { resolve, dirname } from 'path'
 import { fileURLToPath } from 'url'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const ROOT = resolve(__dirname, '..')
+const DIST = resolve(ROOT, 'dist')
 
 const args = process.argv.slice(2)
 const NO_LIVE = args.includes('--no-live')
+// VALIDATE_ALL=1 (or --all): assert EVERY sitemap URL with no sampling/cap.
+// (The live loop already iterates all unique locs; this makes intent explicit
+// and is surfaced in the report. The URL count is always the real parsed
+// sitemap length — never hardcoded — so it reflects whatever the data-driven
+// generator produced for this build.)
+const VALIDATE_ALL = process.env.VALIDATE_ALL === '1' || args.includes('--all')
 const HOST = process.env.SEO_HOST || 'https://accrocar.com'
 
 const c = {
@@ -53,7 +60,10 @@ for (const block of urlBlocks) {
 }
 
 console.log(c.bold(`\n── SEO Validator ──────────────────────────────────────────────`))
-console.log(`Sitemap URLs: ${locs.length}   Host: ${HOST}   Live: ${NO_LIVE ? 'off' : 'on'}\n`)
+console.log(
+  `Sitemap URLs: ${locs.length}   Host: ${HOST}   Live: ${NO_LIVE ? 'off' : 'on'}   ` +
+    `Mode: ${VALIDATE_ALL ? 'VALIDATE_ALL (no sampling)' : 'default'}\n`,
+)
 
 const ROOT_URL = 'https://accrocar.com/'
 const allLocSet = new Set(locs.map((l) => l.loc))
@@ -92,6 +102,40 @@ console.log(
   errors.length === 0
     ? c.green('✓ Static checks passed')
     : c.red(`✗ Static checks: ${errors.length} error(s)`),
+)
+
+// ── Localized static-shell <html lang> checks ────────────────────────────────
+// For every fr/es/ro/nl sitemap URL, a generated shell must exist and its
+// pre-JS <html lang> must equal the route language AND the self-hreflang.
+const shellErrorsBefore = errors.length
+let shellChecked = 0
+for (const { loc, alts } of locs) {
+  const path = new URL(loc).pathname
+  const m = path.match(/^\/(fr|es|ro|nl)(\/|$)/)
+  if (!m) continue
+  const expected = m[1]
+  const rel = path.replace(/^\/+/, '').replace(/\/+$/, '')
+  const file = resolve(DIST, rel, 'index.html')
+  if (!existsSync(file)) {
+    errors.push(`missing SEO shell: dist/${rel}/index.html (${loc})`)
+    continue
+  }
+  shellChecked++
+  const lang = readFileSync(file, 'utf-8').match(/<html[^>]*\blang="([^"]+)"/i)?.[1]
+  if (!lang) {
+    errors.push(`shell has no <html lang>: ${loc}`)
+  } else if (lang !== expected) {
+    errors.push(`shell <html lang="${lang}"> ≠ route lang "${expected}" (${loc})`)
+  }
+  const self = alts.find((a) => a.href === loc)
+  if (self && lang && self.lang !== lang) {
+    errors.push(`shell lang "${lang}" ≠ self-hreflang "${self.lang}" (${loc})`)
+  }
+}
+console.log(
+  errors.length === shellErrorsBefore
+    ? c.green(`✓ Localized shells passed — ${shellChecked} fr/es/ro/nl shells, <html lang> matches route + self-hreflang`)
+    : c.red(`✗ Localized shells: ${errors.length - shellErrorsBefore} error(s)`),
 )
 
 // ── Live checks ──────────────────────────────────────────────────────────────
@@ -135,6 +179,7 @@ if (!NO_LIVE) {
         ? c.green(`✓ Live checks passed — ${ok}/${unique.length} return 200, no redirects`)
         : c.red(`✗ Live checks: ${bad} failing of ${unique.length}`),
     )
+    console.log(c.bold(`Checked ${unique.length}/${locs.length} sitemap URLs (live)`))
   }
 }
 

@@ -83,23 +83,14 @@ for (const post of publishedPosts) {
   )
 }
 
-// Standalone single-language French SEO landing pages (no alternates)
-const LANDING = [
-  { loc: 'https://accrocar.com/location-voiture-luxe-marrakech', priority: '0.9' },
-  { loc: 'https://accrocar.com/location-porsche-cayenne-marrakech', priority: '0.8' },
-]
-for (const { loc, priority } of LANDING) {
-  entries.push(
-    [
-      '  <url>',
-      `    <loc>${loc}</loc>`,
-      `    <lastmod>${TODAY}</lastmod>`,
-      '    <changefreq>monthly</changefreq>',
-      `    <priority>${priority}</priority>`,
-      '  </url>',
-    ].join('\n'),
-  )
-}
+// NOTE: the standalone French landing pages
+//   /location-voiture-luxe-marrakech
+//   /location-porsche-cayenne-marrakech
+// are intentionally NOT emitted here. On production they 301-redirect to
+// their /blog/* equivalents, and a sitemap must list only final, canonical
+// HTTP-200 URLs. The redirect behaviour itself is unchanged — only their
+// removal from the sitemap. Their /blog/* destinations are already included
+// above via the published blog-post enumeration.
 
 const xml = [
   '<?xml version="1.0" encoding="UTF-8"?>',
