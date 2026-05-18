@@ -3,6 +3,8 @@ import { useRef } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
 import { whatsappLink } from '../lib/whatsapp'
+import { localizePath } from '../lib/routes'
+import { useLang } from '../lib/useLang'
 
 const ease = [0.16, 1, 0.3, 1]
 const heroImage = '/bently.webp'
@@ -10,6 +12,7 @@ const heroMobileImage = '/bentlymobile.webp'
 
 export default function Hero() {
   const { t } = useTranslation()
+  const lang = useLang()
   const ref = useRef(null)
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -118,7 +121,7 @@ export default function Hero() {
           transition={{ duration: 1.1, ease, delay: 1.25 }}
           className="mt-12 flex flex-wrap items-center gap-4"
         >
-          <Link to="/fleet" className="btn-luxe-on-dark">
+          <Link to={localizePath('fleet', lang)} className="btn-luxe-on-dark">
             {t('home.hero.ctaFleet')}
             <Arrow />
           </Link>

@@ -6,9 +6,11 @@
   "description": "Accrocar — Luxury Car Concierge in Marrakech",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "node scripts/generate-sitemap.js && vite build",
     "preview": "vite preview",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "check:blog-translations": "node scripts/check-blog-translations.js",
+    "validate:seo": "node scripts/validate-seo.js"
   },
   "dependencies": {
     "framer-motion": "^11.5.4",

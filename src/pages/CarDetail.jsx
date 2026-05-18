@@ -7,12 +7,15 @@ import PageTransition from '../components/PageTransition'
 import Reveal from '../components/animations/Reveal'
 import { getCarById } from '../data/cars'
 import BookingForm from '../components/BookingForm'
+import { localizePath, fullUrl } from '../lib/routes'
+import { useLang } from '../lib/useLang'
 
 const OG_DEFAULT = 'https://accrocar.com/bently.webp'
 
 export default function CarDetail() {
   const { id } = useParams()
   const { t, i18n } = useTranslation()
+  const lang = useLang()
   const car = getCarById(id)
 
   const ref = useRef(null)
@@ -27,16 +30,16 @@ export default function CarDetail() {
     if (!car) return []
     const rows = []
     if (car.horsepower != null)
-      rows.push({ label: 'Power', value: `${car.horsepower} hp` })
+      rows.push({ label: t('carDetail.specsLabels.power'), value: `${car.horsepower} hp` })
     if (car.topSpeed != null)
-      rows.push({ label: 'Top speed', value: `${car.topSpeed} km/h` })
+      rows.push({ label: t('carDetail.specsLabels.topSpeed'), value: `${car.topSpeed} km/h` })
     if (car.acceleration != null)
-      rows.push({ label: '0–100', value: `${car.acceleration} s` })
-    if (car.seats != null) rows.push({ label: 'Seats', value: car.seats })
-    if (car.transmission) rows.push({ label: 'Transmission', value: car.transmission })
-    if (car.year != null) rows.push({ label: 'Year', value: car.year })
+      rows.push({ label: t('carDetail.specsLabels.acceleration'), value: `${car.acceleration} s` })
+    if (car.seats != null) rows.push({ label: t('carDetail.specsLabels.seats'), value: car.seats })
+    if (car.transmission) rows.push({ label: t('carDetail.specsLabels.transmission'), value: car.transmission })
+    if (car.year != null) rows.push({ label: t('carDetail.specsLabels.year'), value: car.year })
     return rows
-  }, [car])
+  }, [car, t])
 
   const jsonLd = useMemo(() => {
     if (!car) return null
@@ -48,20 +51,20 @@ export default function CarDetail() {
         {
           '@type': 'ListItem',
           position: 1,
-          name: 'Home',
-          item: 'https://accrocar.com/',
+          name: t('nav.home'),
+          item: fullUrl('home', lang),
         },
         {
           '@type': 'ListItem',
           position: 2,
-          name: 'Fleet',
-          item: 'https://accrocar.com/fleet',
+          name: t('nav.fleet'),
+          item: fullUrl('fleet', lang),
         },
         {
           '@type': 'ListItem',
           position: 3,
           name: `${car.brand} ${car.model}`,
-          item: `https://accrocar.com/fleet/${car.id}`,
+          item: fullUrl('carDetail', lang, { id: car.id }),
         },
       ],
     }
@@ -88,9 +91,9 @@ export default function CarDetail() {
     }
 
     return [breadcrumb, product]
-  }, [car, t])
+  }, [car, t, lang])
 
-  if (!car) return <Navigate to="/fleet" replace />
+  if (!car) return <Navigate to={localizePath('fleet', lang)} replace />
 
   const seoImage = car.image || OG_DEFAULT
 

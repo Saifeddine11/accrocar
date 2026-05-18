@@ -1,8 +1,10 @@
 import { useState, useRef, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
+import { useLocation, useNavigate } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 
 import { ACCROCAR_LANG_STORAGE_KEY } from '../lib/languageDetection'
+import { resolvePath, localizePath } from '../lib/routes'
 
 const langs = [
   { code: 'fr', label: 'FR', flag: '🇫🇷', name: 'Français' },
@@ -14,8 +16,27 @@ const langs = [
 
 export default function LanguageSwitcher() {
   const { i18n } = useTranslation()
+  const location = useLocation()
+  const navigate = useNavigate()
   const [open, setOpen] = useState(false)
   const ref = useRef(null)
+
+  const { pageKey, params } = resolvePath(location.pathname)
+
+  const switchTo = (code) => {
+    void i18n.changeLanguage(code)
+    try {
+      localStorage.setItem(ACCROCAR_LANG_STORAGE_KEY, code)
+      localStorage.setItem('i18nextLng', code)
+    } catch {
+      /* ignore */
+    }
+    // Navigate to the equivalent page in the target language. Unmapped pages
+    // (single-language landing pages / 404) go to that language's home.
+    const dest = pageKey ? localizePath(pageKey, code, params) : localizePath('home', code)
+    navigate(dest)
+    setOpen(false)
+  }
 
   useEffect(() => {
     const onClick = (e) => {
@@ -25,8 +46,8 @@ export default function LanguageSwitcher() {
     return () => document.removeEventListener('mousedown', onClick)
   }, [])
 
-  const current =
-    langs.find((l) => l.code === i18n.resolvedLanguage) || langs[0]
+  const urlLang = resolvePath(location.pathname).lang
+  const current = langs.find((l) => l.code === urlLang) || langs[0]
 
   return (
     <div className="relative" ref={ref}>
@@ -58,16 +79,7 @@ export default function LanguageSwitcher() {
                 <button
                   role="option"
                   aria-selected={l.code === current.code}
-                  onClick={() => {
-                    void i18n.changeLanguage(l.code)
-                    try {
-                      localStorage.setItem(ACCROCAR_LANG_STORAGE_KEY, l.code)
-                      localStorage.setItem('i18nextLng', l.code)
-                    } catch {
-                      /* ignore */
-                    }
-                    setOpen(false)
-                  }}
+                  onClick={() => switchTo(l.code)}
                   className={`flex w-full items-center gap-2 px-4 py-2.5 text-left text-[11px] tracking-luxe uppercase transition-colors duration-300 hover:bg-sand/10 ${
                     l.code === current.code
                       ? 'text-crimson'

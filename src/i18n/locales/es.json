@@ -258,7 +258,8 @@
     "rights": "Todos los derechos reservados",
     "menu": "Menú",
     "contact": "Contacto",
-    "follow": "Seguir"
+    "follow": "Seguir",
+    "journal": "Revista"
   },
   "seo": {
     "titleSuffix": " — Accrocar | Alquiler coches lujo Marrakech",
@@ -417,5 +418,65 @@
         "body": "Veinte automóviles, seis chóferes, un solo estándar."
       }
     ]
+  },
+  "blog": {
+    "journal": "Revista",
+    "heroEyebrow": "Revista",
+    "heroTitle": "Consejos e inspiración para",
+    "heroTitleAccent": "Marrakech",
+    "heroSubtitle": "Guías de viaje, selección de vehículos, rutas de excepción — todo lo que necesitas para una estancia premium en Marrakech.",
+    "featured": "Destacado",
+    "readArticle": "Leer el artículo",
+    "readMore": "Leer",
+    "noArticles": "No hay artículos en esta categoría por el momento.",
+    "minRead": "min",
+    "ctaTitle": "¿Listo para vivir Marrakech de otra manera?",
+    "ctaFleet": "Ver la flota",
+    "ctaContact": "Contáctanos",
+    "backToJournal": "← Volver a la revista",
+    "relatedPosts": "También te puede interesar",
+    "relatedPostsTitle": "Artículos relacionados",
+    "relatedCars": "Vehículos relacionados",
+    "relatedCarsTitle": "Vehículos disponibles en Marrakech",
+    "faqEyebrow": "Preguntas frecuentes",
+    "faqTitle": "Todo lo que necesitas saber",
+    "viewAllFleet": "Ver toda la flota",
+    "by": "Por",
+    "readingTime": "min de lectura",
+    "updatedOn": "Actualizado el",
+    "breadcrumbHome": "Inicio",
+    "breadcrumbJournal": "Revista",
+    "seoTitle": "Revista Accrocar — Consejos alquiler coches lujo Marrakech",
+    "seoDescription": "Guías, consejos e inspiración para el alquiler de coches de lujo en Marrakech. Rutas, selección de vehículos, eventos — por Accrocar.",
+    "schemaName": "Revista Accrocar",
+    "schemaDescription": "Guías y consejos para el alquiler de coches de lujo en Marrakech",
+    "categories": {
+      "all": "Todos",
+      "guideMarrakech": "Guía Marrakech",
+      "fleet": "Flota",
+      "privateChauffeur": "Chófer privado",
+      "weddings": "Bodas",
+      "vipServices": "Servicios VIP",
+      "itineraries": "Itinerarios",
+      "advice": "Consejos"
+    }
+  },
+  "notFound": {
+    "pageTitle": "Página no encontrada — Accrocar",
+    "eyebrow": "Página no encontrada",
+    "heading": "Esta página no existe o ha sido movida",
+    "description": "Vuelve al inicio o explora nuestra flota de vehículos de lujo.",
+    "backHome": "Volver al inicio",
+    "viewFleet": "Ver la flota"
+  },
+  "carDetail": {
+    "specsLabels": {
+      "power": "Potencia",
+      "topSpeed": "Velocidad máx.",
+      "acceleration": "0–100",
+      "seats": "Plazas",
+      "transmission": "Caja",
+      "year": "Año"
+    }
   }
 }

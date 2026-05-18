@@ -258,7 +258,8 @@
     "rights": "Alle rechten voorbehouden",
     "menu": "Menu",
     "contact": "Contact",
-    "follow": "Volg ons"
+    "follow": "Volg ons",
+    "journal": "Journal"
   },
   "seo": {
     "titleSuffix": " — Accrocar | Luxe autoverhuur Marrakech",
@@ -419,5 +420,65 @@
         "body": "Twintig auto’s, zes chauffeurs, één standaard."
       }
     ]
+  },
+  "blog": {
+    "journal": "Journal",
+    "heroEyebrow": "Journal",
+    "heroTitle": "Tips & inspiratie voor",
+    "heroTitleAccent": "Marrakech",
+    "heroSubtitle": "Reisguides, voertuigselectie, bijzondere routes — alles wat je nodig hebt voor een premium verblijf in Marrakech.",
+    "featured": "Uitgelicht",
+    "readArticle": "Lees artikel",
+    "readMore": "Lees",
+    "noArticles": "Nog geen artikelen in deze categorie.",
+    "minRead": "min",
+    "ctaTitle": "Klaar om Marrakech anders te beleven?",
+    "ctaFleet": "Bekijk de vloot",
+    "ctaContact": "Neem contact op",
+    "backToJournal": "← Terug naar journal",
+    "relatedPosts": "Ook de moeite waard",
+    "relatedPostsTitle": "Artikelen die je mogelijk interesseren",
+    "relatedCars": "Gerelateerde vloot",
+    "relatedCarsTitle": "Beschikbare voertuigen in Marrakech",
+    "faqEyebrow": "Veelgestelde vragen",
+    "faqTitle": "Alles wat je moet weten",
+    "viewAllFleet": "Bekijk alle voertuigen",
+    "by": "Door",
+    "readingTime": "min leestijd",
+    "updatedOn": "Bijgewerkt op",
+    "breadcrumbHome": "Home",
+    "breadcrumbJournal": "Journal",
+    "seoTitle": "Accrocar Journal — Tips luxe autoverhuur Marrakech",
+    "seoDescription": "Reisguides, tips en inspiratie voor luxe autoverhuur in Marrakech. Reisroutes, voertuigselectie, evenementen — door Accrocar.",
+    "schemaName": "Accrocar Journal",
+    "schemaDescription": "Guides en adviezen voor luxe autoverhuur in Marrakech",
+    "categories": {
+      "all": "Alle",
+      "guideMarrakech": "Marrakech gids",
+      "fleet": "Vloot",
+      "privateChauffeur": "Privéchauffeur",
+      "weddings": "Bruiloften",
+      "vipServices": "VIP-services",
+      "itineraries": "Reisroutes",
+      "advice": "Advies"
+    }
+  },
+  "notFound": {
+    "pageTitle": "Pagina niet gevonden — Accrocar",
+    "eyebrow": "Pagina niet gevonden",
+    "heading": "Deze pagina bestaat niet of is verplaatst",
+    "description": "Ga terug naar de startpagina of verken onze vloot luxe voertuigen.",
+    "backHome": "Terug naar home",
+    "viewFleet": "Bekijk de vloot"
+  },
+  "carDetail": {
+    "specsLabels": {
+      "power": "Vermogen",
+      "topSpeed": "Topsnelheid",
+      "acceleration": "0–100",
+      "seats": "Zitplaatsen",
+      "transmission": "Versnelling",
+      "year": "Jaar"
+    }
   }
 }

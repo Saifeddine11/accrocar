@@ -258,7 +258,8 @@
     "rights": "Toate drepturile rezervate",
     "menu": "Meniu",
     "contact": "Contact",
-    "follow": "Urmărește"
+    "follow": "Urmărește",
+    "journal": "Jurnal"
   },
   "seo": {
     "titleSuffix": " — Accrocar | Închirieri mașini lux Marrakech",
@@ -417,5 +418,65 @@
         "body": "Douăzeci de automobile, șase șoferi, un singur standard."
       }
     ]
+  },
+  "blog": {
+    "journal": "Jurnal",
+    "heroEyebrow": "Jurnal",
+    "heroTitle": "Sfaturi și inspirație pentru",
+    "heroTitleAccent": "Marrakech",
+    "heroSubtitle": "Ghiduri de călătorie, selecție de vehicule, itinerarii de excepție — tot ce trebuie să știi pentru un sejur premium la Marrakech.",
+    "featured": "Articol principal",
+    "readArticle": "Citește articolul",
+    "readMore": "Citește",
+    "noArticles": "Niciun articol în această categorie momentan.",
+    "minRead": "min",
+    "ctaTitle": "Pregătit să descoperi Marrakech altfel?",
+    "ctaFleet": "Vezi flota",
+    "ctaContact": "Contactează-ne",
+    "backToJournal": "← Înapoi la jurnal",
+    "relatedPosts": "De citit și",
+    "relatedPostsTitle": "Articole care te-ar putea interesa",
+    "relatedCars": "Flotă asociată",
+    "relatedCarsTitle": "Vehicule disponibile în Marrakech",
+    "faqEyebrow": "Întrebări frecvente",
+    "faqTitle": "Tot ce trebuie să știi",
+    "viewAllFleet": "Vezi toată flota",
+    "by": "De",
+    "readingTime": "min de citit",
+    "updatedOn": "Actualizat la",
+    "breadcrumbHome": "Acasă",
+    "breadcrumbJournal": "Jurnal",
+    "seoTitle": "Jurnalul Accrocar — Sfaturi închiriere mașini lux Marrakech",
+    "seoDescription": "Ghiduri, sfaturi și inspirație pentru închirierea mașinilor de lux la Marrakech. Itinerarii, selecție vehicule, evenimente — de la Accrocar.",
+    "schemaName": "Jurnalul Accrocar",
+    "schemaDescription": "Ghiduri și sfaturi pentru închirierea mașinilor de lux la Marrakech",
+    "categories": {
+      "all": "Toate",
+      "guideMarrakech": "Ghid Marrakech",
+      "fleet": "Flotă",
+      "privateChauffeur": "Șofer privat",
+      "weddings": "Nunți",
+      "vipServices": "Servicii VIP",
+      "itineraries": "Itinerarii",
+      "advice": "Sfaturi"
+    }
+  },
+  "notFound": {
+    "pageTitle": "Pagină negăsită — Accrocar",
+    "eyebrow": "Pagină negăsită",
+    "heading": "Această pagină nu există sau a fost mutată",
+    "description": "Întoarce-te la pagina principală sau explorează flota noastră de vehicule de lux.",
+    "backHome": "Înapoi la pagina principală",
+    "viewFleet": "Vezi flota"
+  },
+  "carDetail": {
+    "specsLabels": {
+      "power": "Putere",
+      "topSpeed": "Viteză max.",
+      "acceleration": "0–100",
+      "seats": "Locuri",
+      "transmission": "Cutie",
+      "year": "An"
+    }
   }
 }

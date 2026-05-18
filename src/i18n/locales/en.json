@@ -258,7 +258,8 @@
     "rights": "All rights reserved",
     "menu": "Menu",
     "contact": "Contact",
-    "follow": "Follow"
+    "follow": "Follow",
+    "journal": "Journal"
   },
   "seo": {
     "titleSuffix": " — Accrocar | Luxury Car Rental Marrakech",
@@ -417,5 +418,65 @@
         "body": "Twenty automobiles, six chauffeurs, one standard."
       }
     ]
+  },
+  "blog": {
+    "journal": "Journal",
+    "heroEyebrow": "Journal",
+    "heroTitle": "Tips & inspiration for",
+    "heroTitleAccent": "Marrakech",
+    "heroSubtitle": "Travel guides, vehicle selection, exceptional itineraries — everything you need for a premium stay in Marrakech.",
+    "featured": "Featured",
+    "readArticle": "Read article",
+    "readMore": "Read",
+    "noArticles": "No articles in this category yet.",
+    "minRead": "min",
+    "ctaTitle": "Ready to experience Marrakech differently?",
+    "ctaFleet": "View the fleet",
+    "ctaContact": "Contact us",
+    "backToJournal": "← Back to journal",
+    "relatedPosts": "Also worth reading",
+    "relatedPostsTitle": "Articles you might enjoy",
+    "relatedCars": "Associated fleet",
+    "relatedCarsTitle": "Vehicles available in Marrakech",
+    "faqEyebrow": "Frequently asked questions",
+    "faqTitle": "Everything you need to know",
+    "viewAllFleet": "View all vehicles",
+    "by": "By",
+    "readingTime": "min read",
+    "updatedOn": "Updated on",
+    "breadcrumbHome": "Home",
+    "breadcrumbJournal": "Journal",
+    "seoTitle": "Accrocar Journal — Luxury Car Rental Tips Marrakech",
+    "seoDescription": "Guides, tips and inspiration for luxury car rental in Marrakech. Itineraries, vehicle selection, events — by Accrocar.",
+    "schemaName": "Accrocar Journal",
+    "schemaDescription": "Guides and advice for luxury car rental in Marrakech",
+    "categories": {
+      "all": "All",
+      "guideMarrakech": "Marrakech Guide",
+      "fleet": "Fleet",
+      "privateChauffeur": "Private Chauffeur",
+      "weddings": "Weddings",
+      "vipServices": "VIP Services",
+      "itineraries": "Itineraries",
+      "advice": "Advice"
+    }
+  },
+  "notFound": {
+    "pageTitle": "Page not found — Accrocar",
+    "eyebrow": "Page not found",
+    "heading": "This page doesn't exist or has been moved",
+    "description": "Return to the homepage or explore our fleet of luxury vehicles.",
+    "backHome": "Back to home",
+    "viewFleet": "View the fleet"
+  },
+  "carDetail": {
+    "specsLabels": {
+      "power": "Power",
+      "topSpeed": "Top speed",
+      "acceleration": "0–100",
+      "seats": "Seats",
+      "transmission": "Transmission",
+      "year": "Year"
+    }
   }
 }

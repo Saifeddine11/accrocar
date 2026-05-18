@@ -7,6 +7,8 @@ import PageTransition from '../components/PageTransition'
 import Reveal from '../components/animations/Reveal'
 import FleetLuxeSelect from '../components/FleetLuxeSelect'
 import { cars } from '../data/cars'
+import { localizePath } from '../lib/routes'
+import { useLang } from '../lib/useLang'
 import {
   FLEET_FILTER_BRAND_VALUES,
   FLEET_FILTER_CATEGORY_SLUGS,
@@ -39,6 +41,7 @@ function FleetCardMedia({ car }) {
 
 export default function Fleet() {
   const { t, i18n } = useTranslation()
+  const lang = useLang()
   const [brandFilter, setBrandFilter] = useState('all')
   const [categoryFilter, setCategoryFilter] = useState('all')
   const [priceSort, setPriceSort] = useState('default')
@@ -172,7 +175,7 @@ export default function Fleet() {
                 className="h-full"
               >
                 <Link
-                  to={`/fleet/${car.id}`}
+                  to={localizePath('carDetail', lang, { id: car.id })}
                   className="group flex h-full flex-col"
                 >
                   <div className="relative aspect-[16/10] overflow-hidden bg-pearl-200">

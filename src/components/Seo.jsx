@@ -1,6 +1,7 @@
 import { Helmet } from 'react-helmet-async'
 import { useTranslation } from 'react-i18next'
 import { useLocation } from 'react-router-dom'
+import { resolvePath, fullUrl, alternatesFor, LANGUAGES, DEFAULT_LANG } from '../lib/routes'
 
 const BASE_URL = 'https://accrocar.com'
 
@@ -32,9 +33,28 @@ export default function Seo({
     ? `${title}${t('seo.titleSuffix')}`
     : t('seo.defaultTitle')
 
-  // Always canonical to https://accrocar.com — no trailing slash except root
-  const canonicalPath = location.pathname === '/' ? '/' : location.pathname.replace(/\/$/, '')
-  const canonicalUrl = url || `${BASE_URL}${canonicalPath}`
+  // Resolve the current localized page → canonical + hreflang cluster.
+  // Non-www, no trailing slash (except root).
+  //
+  // IMPORTANT: for mapped multilingual pages the canonical is ALWAYS derived
+  // from the live route (the static `url` prop pages pass is a legacy
+  // English-only value and must be ignored here, otherwise every language
+  // would canonicalise to the English URL). The `url` prop is honoured only
+  // for unmapped routes (standalone FR landing pages).
+  const { lang, pageKey, params } = resolvePath(location.pathname)
+  const isMapped = !!pageKey
+
+  let canonicalUrl
+  let alternates = null
+  if (isMapped) {
+    canonicalUrl = fullUrl(pageKey, lang, params)
+    alternates = alternatesFor(pageKey, params)
+  } else if (url) {
+    canonicalUrl = url
+  } else {
+    const p = location.pathname === '/' ? '/' : location.pathname.replace(/\/$/, '')
+    canonicalUrl = `${BASE_URL}${p}`
+  }
 
   return (
     <Helmet>
@@ -43,6 +63,14 @@ export default function Seo({
       {keywords && <meta name="keywords" content={keywords} />}
 
       <link rel="canonical" href={canonicalUrl} />
+
+      {alternates &&
+        LANGUAGES.map((l) => (
+          <link key={l} rel="alternate" hrefLang={l} href={alternates[l]} />
+        ))}
+      {alternates && (
+        <link rel="alternate" hrefLang="x-default" href={alternates[DEFAULT_LANG]} />
+      )}
 
       {preloadImage && (
         <link

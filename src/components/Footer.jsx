@@ -2,10 +2,14 @@ import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import Reveal from './animations/Reveal'
 import { INSTAGRAM_URL, whatsappDisplayNumber, whatsappLink } from '../lib/whatsapp'
+import { localizePath } from '../lib/routes'
+import { useLang } from '../lib/useLang'
 
 export default function Footer() {
   const { t } = useTranslation()
   const year = new Date().getFullYear()
+  const lang = useLang()
+  const p = (key) => localizePath(key, lang)
 
   return (
     <footer className="relative bg-pearl text-obsidian border-t border-sand/60">
@@ -30,28 +34,33 @@ export default function Footer() {
             <p className="eyebrow">{t('footer.menu')}</p>
             <ul className="mt-6 space-y-3 text-obsidian/85">
               <li>
-                <Link to="/fleet" className="link-reveal">
+                <Link to={p('fleet')} className="link-reveal">
                   {t('nav.fleet')}
                 </Link>
               </li>
               <li>
-                <Link to="/vip-services" className="link-reveal">
+                <Link to={p('vip')} className="link-reveal">
                   {t('nav.vip')}
                 </Link>
               </li>
               <li>
-                <Link to="/private-chauffeur" className="link-reveal">
+                <Link to={p('chauffeur')} className="link-reveal">
                   {t('nav.chauffeur')}
                 </Link>
               </li>
               <li>
-                <Link to="/weddings-events" className="link-reveal">
+                <Link to={p('weddings')} className="link-reveal">
                   {t('nav.weddings')}
                 </Link>
               </li>
               <li>
-                <Link to="/about" className="link-reveal">
+                <Link to={p('about')} className="link-reveal">
                   {t('nav.about')}
+                </Link>
+              </li>
+              <li>
+                <Link to={p('blog')} className="link-reveal">
+                  {t('footer.journal')}
                 </Link>
               </li>
             </ul>

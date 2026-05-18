@@ -4,11 +4,14 @@ import { motion, useScroll, useTransform } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
 import { featuredCars } from '../data/cars'
 import Reveal from '../components/animations/Reveal'
+import { localizePath } from '../lib/routes'
+import { useLang } from '../lib/useLang'
 
 const ease = [0.16, 1, 0.3, 1]
 
 function FeaturedCard({ car }) {
   const { t } = useTranslation()
+  const lang = useLang()
   const ref = useRef(null)
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -20,7 +23,7 @@ function FeaturedCard({ car }) {
   return (
     <article ref={ref} className="group relative w-full">
       <div className="relative aspect-[16/10] overflow-hidden bg-pearl-200 rounded-t-xl">
-        <Link to={`/fleet/${car.id}`} className="block w-full h-full">
+        <Link to={localizePath('carDetail', lang, { id: car.id })} className="block w-full h-full">
           {car.image ? (
             <motion.img
               style={{ scale, y }}
@@ -70,6 +73,7 @@ function FeaturedCard({ car }) {
 
 export default function FeaturedFleet() {
   const { t } = useTranslation()
+  const lang = useLang()
   return (
     <section className="bg-pearl text-obsidian pt-24 pb-12 md:pb-16">
       <div className="container-editorial">
@@ -99,7 +103,7 @@ export default function FeaturedFleet() {
         </div>
 
         <Reveal className="mt-16 md:mt-20 flex justify-center">
-          <Link to="/fleet" className="btn-luxe-ghost">
+          <Link to={localizePath('fleet', lang)} className="btn-luxe-ghost">
             {t('home.featured.cta')} <Arrow />
           </Link>
         </Reveal>

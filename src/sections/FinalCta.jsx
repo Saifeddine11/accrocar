@@ -3,9 +3,12 @@ import { Link } from 'react-router-dom'
 import { motion, useScroll, useTransform } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
 import Reveal from '../components/animations/Reveal'
+import { localizePath } from '../lib/routes'
+import { useLang } from '../lib/useLang'
 
 export default function FinalCta() {
   const { t } = useTranslation()
+  const lang = useLang()
   const ref = useRef(null)
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -56,7 +59,7 @@ export default function FinalCta() {
         </Reveal>
 
         <Reveal delay={0.3} className="mt-12">
-          <Link to="/contact" className="btn-luxe-on-dark">
+          <Link to={localizePath('contact', lang)} className="btn-luxe-on-dark">
             {t('home.finalCta.cta')}
             <svg width="14" height="10" viewBox="0 0 14 10" fill="none" aria-hidden>
               <path d="M1 5h12m0 0L9 1m4 4L9 9" stroke="currentColor" strokeWidth="1.2" />

@@ -4,6 +4,8 @@ import { AnimatePresence, motion, useScroll, useMotionValueEvent } from 'framer-
 import { useTranslation } from 'react-i18next'
 import LanguageSwitcher from './LanguageSwitcher'
 import { whatsappDisplayNumber } from '../lib/whatsapp'
+import { localizePath, resolvePath } from '../lib/routes'
+import { useLang } from '../lib/useLang'
 
 const easeExpo = [0.16, 1, 0.3, 1]
 
@@ -22,21 +24,25 @@ export default function Navbar() {
     document.body.style.overflow = open ? 'hidden' : ''
   }, [open])
 
+  const lang = useLang()
   const items = [
-    { to: '/fleet', label: t('nav.fleet') },
-    { to: '/vip-services', label: t('nav.vip') },
-    { to: '/private-chauffeur', label: t('nav.chauffeur') },
-    { to: '/weddings-events', label: t('nav.weddings') },
-    { to: '/about', label: t('nav.about') },
-    { to: '/contact', label: t('nav.contact') },
+    { to: localizePath('fleet', lang), label: t('nav.fleet') },
+    { to: localizePath('vip', lang), label: t('nav.vip') },
+    { to: localizePath('chauffeur', lang), label: t('nav.chauffeur') },
+    { to: localizePath('weddings', lang), label: t('nav.weddings') },
+    { to: localizePath('about', lang), label: t('nav.about') },
+    { to: localizePath('contact', lang), label: t('nav.contact') },
   ]
+  const homePath = localizePath('home', lang)
+  const contactPath = localizePath('contact', lang)
 
   // Pages that begin with a fullscreen image-hero — keep the bar transparent at the top.
+  const { pageKey } = resolvePath(location.pathname)
   const onImageHero =
-    location.pathname === '/' ||
-    location.pathname === '/private-chauffeur' ||
-    location.pathname === '/weddings-events' ||
-    location.pathname.startsWith('/fleet/')
+    pageKey === 'home' ||
+    pageKey === 'chauffeur' ||
+    pageKey === 'weddings' ||
+    pageKey === 'carDetail'
 
   const transparent = onImageHero && !scrolled && !open
 
@@ -53,7 +59,7 @@ export default function Navbar() {
         } ${open ? 'bg-pearl text-obsidian' : ''}`}
       >
         <div className="container-editorial flex items-center justify-between h-16 md:h-20">
-          <Link to="/" className="group flex shrink-0 items-center">
+          <Link to={homePath} className="group flex shrink-0 items-center">
             <img
               src="/logo.png"
               alt="Accrocar logo"
@@ -82,7 +88,7 @@ export default function Navbar() {
           <div className="flex items-center gap-4 md:gap-6">
             <LanguageSwitcher />
             <Link
-              to="/contact"
+              to={contactPath}
               className={`hidden md:inline-flex btn-luxe py-2.5 px-5 text-[10.5px] ${
                 transparent
                   ? 'border border-pearl/35 text-pearl hover:border-crimson hover:bg-crimson hover:text-pearl'
