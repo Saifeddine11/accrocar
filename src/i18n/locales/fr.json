@@ -478,5 +478,122 @@
       "transmission": "Boîte",
       "year": "Millésime"
     }
+  },
+  "carDetailContent": {
+    "h1Suffix": "location de voiture de luxe à Marrakech",
+    "introHeading": "Location {{brand}} {{model}} à Marrakech",
+    "intro": "Louez la {{brand}} {{model}} à Marrakech avec Accrocar, à partir de {{price}} € / jour, avec livraison VIP à votre hôtel, riad, villa privée ou directement à l'aéroport Marrakech Menara. Chaque {{brand}} {{model}} est préparée selon nos standards concierge et remise là où vous êtes — sans comptoir d'agence, sans attente.",
+    "whyHeading": "Pourquoi la {{brand}} {{model}}",
+    "bestForHeading": "Idéale pour",
+    "deliveryHeading": "Livraison VIP à Marrakech et au Maroc",
+    "delivery": "Nous livrons la {{brand}} {{model}} à l'aéroport Marrakech Menara, dans les quartiers Hivernage et Guéliz, à la Palmeraie, dans les riads de la Médina et les villas privées. Au-delà de Marrakech, nous couvrons aussi l'Agafay, la vallée de l'Ourika, Essaouira et Casablanca sur demande, avec un interlocuteur unique de la réservation au retour.",
+    "chauffeurHeading": "Chauffeur ou conduite libre",
+    "bookingHeading": "Comment réserver",
+    "booking": "Indiquez-nous vos dates de location, l'adresse de livraison, la durée, votre préférence chauffeur privé ou conduite libre, et toute destination hors de Marrakech. Nous confirmons la disponibilité et les conditions sous une heure.",
+    "relatedHeading": "À découvrir",
+    "linkFleet": "Voir toute la flotte",
+    "linkChauffeur": "Service chauffeur privé",
+    "linkWeddings": "Mariages & événements",
+    "linkContact": "Demander un devis",
+    "linkBlog": "Lire notre guide Marrakech",
+    "similarHeading": "Modèles similaires",
+    "profiles": {
+      "ultra": {
+        "why": "La {{model}} est la signature Bentley de l'arrivée — finie à la main, silencieuse, inimitable. À Marrakech, elle a sa place devant un palace, un domaine privé ou un mariage, là où la présence compte autant que le confort.",
+        "bestFor": ["Mariages et célébrations privées", "Arrivées dans les palaces et hôtels de luxe", "Accueil VIP à l'aéroport Marrakech Menara", "Déplacements executive discrets", "Occasions avec chauffeur"],
+        "chauffeur": "La plupart de nos clients choisissent la {{model}} avec chauffeur privé pour les événements et les arrivées ; la conduite libre reste possible."
+      },
+      "luxurySuv": {
+        "why": "La {{model}} associe un confort imposant à de réelles capacités — aussi à l'aise sur les boulevards de Guéliz que sur les routes qui montent vers l'Atlas. C'est notre choix le plus polyvalent pour mêler affaires, loisirs et découverte.",
+        "bestFor": ["Excursions à l'Agafay et dans la vallée de l'Ourika", "Routes de l'Atlas et de Ouarzazate", "Séjours d'affaires et transferts hôtel", "Familles et couples avec bagages", "Conduite libre ou avec chauffeur"],
+        "chauffeur": "La {{model}} convient parfaitement en conduite libre comme avec chauffeur privé, selon que vous souhaitez conduire vous-même les routes de montagne."
+      },
+      "van": {
+        "why": "La {{model}} est pensée pour le voyage de groupe VIP — espace généreux, sièges premium et place pour les bagages. C'est le choix naturel des familles, des délégations et des transferts aéroport où l'on voyage ensemble, confortablement.",
+        "bestFor": ["Transferts de groupe à l'aéroport Marrakech Menara", "Familles avec bagages", "Transport d'entreprise et de délégation", "Circuits privés sur plusieurs jours", "Voyage de groupe avec chauffeur"],
+        "chauffeur": "La {{model}} est le plus souvent réservée avec chauffeur privé pour les transferts et itinéraires de groupe ; la conduite libre reste disponible."
+      },
+      "executive": {
+        "why": "La {{model}} offre un confort executive discret — silencieuse, raffinée, idéale pour les longues routes et les déplacements professionnels entre rendez-vous, hôtels et aéroport.",
+        "bestFor": ["Séjours d'affaires à Marrakech", "Transferts aéroport et hôtel", "Longues routes vers Casablanca ou Essaouira", "Une image professionnelle discrète", "Conduite libre ou avec chauffeur"],
+        "chauffeur": "Aussi adaptée à la conduite libre qu'au service avec chauffeur pour les itinéraires d'affaires et les transferts."
+      },
+      "sport": {
+        "why": "La {{model}} est faite pour conduire — vive, précise, engageante sur les routes ouvertes vers l'Ourika et l'Atlas, tout en gardant le confort et la présence attendus d'une voiture premium en ville.",
+        "bestFor": ["Routes de l'Ourika et de l'Atlas", "Déplacements urbains au style affirmé", "Escapades loisirs courtes", "Couples et voyageurs solos", "Conduite libre"],
+        "chauffeur": "La {{model}} est avant tout une voiture en conduite libre pour les amateurs de conduite ; un chauffeur peut être organisé sur demande."
+      },
+      "compact": {
+        "why": "La {{model}} est la façon maligne de circuler à Marrakech — facile à garer, sobre et confortable pour la ville, l'Hivernage et les trajets courts, sans renoncer à une finition propre et premium.",
+        "bestFor": ["Conduite en ville et abords de la Médina", "Stationnement facile à Guéliz et Hivernage", "Prise en charge aéroport et courts séjours", "Voyageurs attentifs au budget", "Conduite libre"],
+        "chauffeur": "La {{model}} est conçue pour la conduite libre en ville ; un chauffeur peut être ajouté si vous le préférez."
+      }
+    }
+  },
+  "pagesSeo": {
+    "home": "Location de voiture de luxe à Marrakech avec livraison VIP au Maroc",
+    "fleet": "Location voiture luxe Marrakech",
+    "vip": "Services VIP avec voiture de luxe au Maroc",
+    "chauffeur": "Chauffeur privé à Marrakech",
+    "weddings": "Voiture de mariage à Marrakech",
+    "about": "Concierge automobile de luxe à Marrakech depuis 2018",
+    "contact": "Réserver une voiture de luxe à Marrakech"
+  },
+  "pageContent": {
+    "fleet": {
+      "introH": "Notre flotte de voitures de luxe à Marrakech",
+      "introP": "Notre flotte de voitures de luxe à Marrakech va de la citadine efficace au SUV ultra-luxe, chaque modèle étant livré en remise VIP à votre hôtel, riad, villa privée ou à l'aéroport Marrakech Menara. Quel que soit votre choix, la voiture est préparée selon nos standards concierge et remise là où vous êtes — sans comptoir d'agence, sans attente.",
+      "casesH": "Choisir selon l'usage",
+      "cases": ["Transferts aéroport et arrivées VIP — Mercedes Classe V, Range Rover", "Mariages et événements — Bentley Bentayga, Range Rover Vogue", "Routes de l'Agafay, de l'Ourika et de l'Atlas — Porsche Cayenne, Range Rover Sport", "Séjours d'affaires et trajets en ville — BMW Série 5, Mercedes CLA", "Conduite urbaine maîtrisée côté budget — Volkswagen Golf, Fiat 500"],
+      "threeH": "Livraison VIP à Marrakech et au Maroc",
+      "threeP": "Chaque véhicule est livré partout à Marrakech — Hivernage, Guéliz, Palmeraie, riads de la Médina et villas privées — et au-delà vers l'Agafay, Essaouira, Casablanca et Ouarzazate sur demande, avec un interlocuteur unique de la réservation au retour.",
+      "bookingH": "Comment réserver",
+      "bookingP": "Indiquez-nous vos dates, l'adresse de livraison, la durée, votre préférence chauffeur privé ou conduite libre, et toute destination hors de Marrakech. Nous confirmons la disponibilité et les conditions sous une heure.",
+      "extraP": "Vous hésitez sur le modèle ? Indiquez-nous vos dates et votre programme : nous vous conseillons la voiture idéale de la flotte de Marrakech, livrée en VIP où que vous soyez — la plupart des demandes sont confirmées le jour même.",
+      "faqH": "Questions sur la flotte",
+      "faq": [{ "q": "Toutes les voitures peuvent-elles être livrées à l'aéroport Marrakech Menara ?", "a": "Oui — chaque voiture de la flotte peut être livrée et reprise à l'aéroport Marrakech Menara, comme à votre hôtel, riad ou villa." }, { "q": "Puis-je louer avec un chauffeur privé ?", "a": "La plupart des modèles sont disponibles en conduite libre ou avec un chauffeur privé professionnel. Précisez votre préférence à la réservation." }, { "q": "Livrez-vous hors de Marrakech ?", "a": "Oui — la livraison VIP est possible partout au Maroc, dont l'Agafay, Essaouira, Casablanca et Ouarzazate, sur demande." }]
+    },
+    "vip": {
+      "introH": "Services VIP avec voiture de luxe au Maroc",
+      "introP": "Les services VIP Accrocar associent une voiture de luxe, un chauffeur privé sur demande et une livraison VIP partout au Maroc. D'un accueil discret à l'aéroport à un itinéraire privé sur plusieurs jours, chaque détail est organisé autour de vous, à Marrakech et au-delà.",
+      "casesH": "Quand le service VIP s'impose",
+      "cases": ["Accueil VIP à l'aéroport Marrakech Menara", "Aviation privée et transferts inter-villes", "Itinéraires avec chauffeur sur plusieurs jours", "Déplacements d'entreprise et de délégation", "Voyages discrets pour personnalités"],
+      "threeH": "Livraison et conciergerie au Maroc",
+      "threeP": "Nous livrons hôtels, riads, villas privées et lieux d'événements partout à Marrakech — Hivernage, Guéliz, Palmeraie — puis vers Casablanca, Rabat, Essaouira et le désert d'Agafay, coordonnés par un interlocuteur unique.",
+      "bookingH": "Comment organiser",
+      "bookingP": "Communiquez vos dates, les villes et adresses concernées, votre besoin éventuel de chauffeur, et votre itinéraire. Nous confirmons disponibilité, parcours et conditions en privé, généralement sous une heure.",
+      "extraP": "Chaque itinéraire VIP est suivi par un interlocuteur unique, du premier message à la dépose finale, pour que vos déplacements au Maroc restent fluides, discrets et parfaitement à l'heure.",
+      "extraP2": "Pour les arrivées VIP à l'aéroport Marrakech Menara, nous suivons le vol et la voiture attend au point convenu pour une remise discrète et sans précipitation. Que la destination soit un hôtel de l'Hivernage, une villa de la Palmeraie ou un riad de la Médina, le même interlocuteur dédié coordonne horaires, parcours et la suite éventuelle vers Casablanca, Essaouira ou le désert d'Agafay — itinéraire privé et parfaitement à l'heure.",
+      "faqH": "Questions sur le service VIP",
+      "faq": [{ "q": "Le chauffeur est-il inclus dans les services VIP ?", "a": "Un chauffeur privé professionnel est disponible sur demande pour tout itinéraire VIP ; la conduite libre reste possible pour la plupart des véhicules." }, { "q": "Pouvez-vous coordonner un voyage dans plusieurs villes marocaines ?", "a": "Oui — livraison VIP et trajets avec chauffeur peuvent être organisés à Marrakech, Casablanca, Rabat, Essaouira et au-delà." }, { "q": "Quel est le niveau de discrétion ?", "a": "La discrétion est centrale : véhicules premium banalisés, chauffeurs formés et remises privées, sans partage d'itinéraires." }]
+    },
+    "chauffeur": {
+      "introH": "Service de chauffeur privé à Marrakech",
+      "introP": "Notre service de chauffeur privé à Marrakech associe un véhicule premium à un chauffeur professionnel et discret — à l'heure, à la journée ou pour tout votre séjour. Idéal pour les transferts aéroport, les journées d'affaires, les événements et les excursions, à Marrakech et au Maroc.",
+      "casesH": "Quand choisir un chauffeur",
+      "cases": ["Transferts depuis et vers l'aéroport Marrakech Menara", "Journées d'affaires entre rendez-vous et hôtels", "Soirées, dîners et événements privés", "Excursions à l'Agafay, l'Ourika et l'Atlas", "Déplacements multi-villes au Maroc"],
+      "threeH": "Chauffeur ou conduite libre",
+      "threeP": "Vous préférez conduire ? La plupart de notre flotte est aussi disponible en conduite libre, livrée avec le plein et préparée selon nos standards concierge. Choisissez le chauffeur quand vous voulez arriver sans penser à la route.",
+      "bookingH": "Comment réserver",
+      "bookingP": "Indiquez-nous les dates et horaires, les adresses de prise en charge et de dépose, le véhicule souhaité et l'itinéraire. Nous confirmons votre chauffeur, le véhicule et les conditions sous une heure.",
+      "extraP": "Qu'il s'agisse d'un simple transfert aéroport ou d'un chauffeur pour tout votre séjour à Marrakech, nous associons le bon chauffeur et le bon véhicule à votre programme et confirmons tout avant votre arrivée.",
+      "extraP2": "Votre chauffeur organise chaque journée autour de votre programme : transferts à l'aéroport Marrakech Menara calés sur le vol, trajets d'affaires entre Guéliz et l'Hivernage, soirées et départs matinaux vers l'Ourika ou l'Atlas. Les points de prise en charge — hôtels, villas de la Palmeraie ou riads de la Médina — sont convenus à l'avance, et le chauffeur confirme les horaires la veille pour que chaque transfert reste calme, discret et parfaitement ponctuel.",
+      "faqH": "Questions sur le chauffeur",
+      "faq": [{ "q": "Quelles langues parlent les chauffeurs ?", "a": "Nos chauffeurs parlent français et anglais ; plusieurs parlent aussi l'arabe, l'espagnol ou l'italien." }, { "q": "Le chauffeur peut-il rester toute la journée ?", "a": "Oui — les chauffeurs sont disponibles à l'heure, en demi-journée, à la journée ou pour tout votre séjour, à Marrakech ou au Maroc." }, { "q": "Quelles voitures sont disponibles avec chauffeur ?", "a": "La plupart de la flotte, de la Mercedes Classe V à la Bentley Bentayga, peut être réservée avec chauffeur privé." }]
+    },
+    "weddings": {
+      "introH": "Location de voiture de mariage à Marrakech",
+      "introP": "La location de voiture de mariage à Marrakech avec Accrocar, c'est une arrivée parfaite — voiture des mariés, cortège coordonné ou flotte pour vos invités, livrée à l'heure à votre lieu de réception, riad ou palace. Chaque voiture est préparée et soignée pour le jour J.",
+      "casesH": "Pour votre mariage",
+      "cases": ["Voiture des mariés pour l'arrivée à la cérémonie", "Cortège coordonné pour le couple et la famille", "Transferts des invités depuis hôtels et riads", "Véhicules pour photos et shootings", "Accueil à l'aéroport des invités"],
+      "threeH": "Livraison et timing",
+      "threeP": "Nous livrons les lieux de mariage à Marrakech et dans la région — Palmeraie, domaines de l'Agafay, riads de la Médina et villas privées — en coordination avec votre wedding planner pour que la voiture soit en place exactement à l'heure.",
+      "bookingH": "Comment organiser",
+      "bookingP": "Communiquez la date du mariage, les lieux et horaires, le nombre de véhicules et votre besoin de chauffeurs. Nous coordonnons avec votre wedding planner et confirmons chaque détail à l'avance.",
+      "extraP": "De la première prise de contact au départ final, nous organisons vos voitures de mariage selon votre timing à Marrakech, pour que le jour J vous ne pensiez qu'à la fête.",
+      "extraP2": "À Marrakech, nous coordonnons directement avec votre wedding planner ou le concierge du lieu — d'un domaine de la Palmeraie ou de l'Agafay à un riad de la Médina ou une villa privée — et calons chaque voiture sur votre déroulé. Les arrivées depuis l'aéroport Marrakech Menara sont planifiées selon les vols des invités, et la voiture des mariés est positionnée et préparée avant la cérémonie, pour que chaque entrée se fasse au bon moment. Cortèges, navettes pour les invités et véhicule de secours peuvent être prévus pour qu'aucun moment de la journée n'attende le transport.",
+      "faqH": "Questions sur le mariage",
+      "faq": [{ "q": "Pouvez-vous fournir plusieurs voitures pour le mariage ?", "a": "Oui — d'une seule voiture des mariés à un cortège complet et aux transferts des invités, coordonnés selon votre programme." }, { "q": "Les voitures de mariage sont-elles avec chauffeur ?", "a": "Les réservations mariage incluent un chauffeur professionnel par défaut ; le couple peut aussi conduire sur demande." }, { "q": "Travaillez-vous avec les wedding planners ?", "a": "Oui — nous coordonnons directement avec votre planner le timing, les lieux et le déroulé." }]
+    }
   }
 }

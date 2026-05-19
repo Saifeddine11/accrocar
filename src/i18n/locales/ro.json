@@ -478,5 +478,122 @@
       "transmission": "Cutie",
       "year": "An"
     }
+  },
+  "carDetailContent": {
+    "h1Suffix": "închiriere mașină de lux la Marrakech",
+    "introHeading": "Închiriere {{brand}} {{model}} la Marrakech",
+    "intro": "Închiriază {{brand}} {{model}} la Marrakech cu Accrocar, de la {{price}} € / zi, cu livrare VIP la hotel, riad, vilă privată sau direct la aeroportul Marrakech Menara. Fiecare {{brand}} {{model}} este pregătită la standard concierge și predată acolo unde te afli — fără ghișeu de agenție, fără așteptare.",
+    "whyHeading": "De ce {{brand}} {{model}}",
+    "bestForHeading": "Ideală pentru",
+    "deliveryHeading": "Livrare VIP în Marrakech și Maroc",
+    "delivery": "Livrăm {{brand}} {{model}} la aeroportul Marrakech Menara, în cartierele Hivernage și Guéliz, în Palmeraie, în riad-urile din Medina și în vile private. Dincolo de Marrakech acoperim și Agafay, valea Ourika, Essaouira și Casablanca la cerere, cu un singur contact de la rezervare până la returnare.",
+    "chauffeurHeading": "Cu șofer sau condus personal",
+    "bookingHeading": "Cum rezervi",
+    "booking": "Trimite-ne datele închirierii, adresa de livrare, durata, dacă preferi șofer privat sau condus personal și orice destinație din afara orașului Marrakech. Confirmăm disponibilitatea și condițiile în mai puțin de o oră.",
+    "relatedHeading": "Descoperă",
+    "linkFleet": "Vezi toată flota",
+    "linkChauffeur": "Serviciu de șofer privat",
+    "linkWeddings": "Nunți și evenimente",
+    "linkContact": "Cere o ofertă",
+    "linkBlog": "Citește ghidul nostru Marrakech",
+    "similarHeading": "Modele similare",
+    "profiles": {
+      "ultra": {
+        "why": "{{model}} este semnătura Bentley a sosirii — finisată manual, silențioasă, inconfundabilă. La Marrakech își are locul în fața unui palat, a unei reședințe private sau a unei nunți, acolo unde prezența contează la fel de mult ca și confortul.",
+        "bestFor": ["Nunți și celebrări private", "Sosiri la palate și hoteluri de lux", "Întâmpinare VIP la aeroportul Marrakech Menara", "Deplasări executive discrete", "Ocazii cu șofer"],
+        "chauffeur": "Majoritatea clienților aleg {{model}} cu șofer privat pentru evenimente și sosiri; condusul personal rămâne disponibil."
+      },
+      "luxurySuv": {
+        "why": "{{model}} îmbină un confort impunător cu capabilități reale — la fel de comodă pe bulevardele din Guéliz ca și pe drumurile care urcă spre Atlas. Este alegerea noastră cea mai versatilă pentru a combina afacerile, relaxarea și explorarea.",
+        "bestFor": ["Excursii la Agafay și în valea Ourika", "Rute spre Atlas și Ouarzazate", "Sejururi de afaceri și transferuri la hotel", "Familii și cupluri cu bagaje", "Condus personal sau cu șofer"],
+        "chauffeur": "{{model}} se potrivește perfect atât pentru condus personal, cât și cu șofer privat, în funcție de cât de mult vrei să conduci chiar tu drumurile de munte."
+      },
+      "van": {
+        "why": "{{model}} este construită pentru călătoria de grup VIP — spațiu generos, scaune premium și loc pentru bagaje. Este alegerea naturală pentru familii, delegații și transferuri de aeroport, unde se călătorește împreună, confortabil.",
+        "bestFor": ["Transferuri de grup la aeroportul Marrakech Menara", "Familii cu bagaje", "Transport corporativ și de delegație", "Tururi private de mai multe zile", "Călătorie de grup cu șofer"],
+        "chauffeur": "{{model}} este rezervată cel mai des cu șofer privat pentru transferuri și itinerarii de grup; condusul personal rămâne disponibil."
+      },
+      "executive": {
+        "why": "{{model}} oferă un confort executive discret — silențioasă, rafinată, ideală pentru rute lungi și deplasări de afaceri între întâlniri, hoteluri și aeroport.",
+        "bestFor": ["Sejururi de afaceri la Marrakech", "Transferuri aeroport și hotel", "Rute lungi spre Casablanca sau Essaouira", "O imagine profesională discretă", "Condus personal sau cu șofer"],
+        "chauffeur": "La fel de potrivită pentru condus personal ca și cu șofer pentru itinerarii de afaceri și transferuri."
+      },
+      "sport": {
+        "why": "{{model}} este făcută pentru condus — agilă, precisă și antrenantă pe drumurile deschise spre Ourika și Atlas, păstrând confortul și prezența unei mașini premium în oraș.",
+        "bestFor": ["Drumurile spre Ourika și Atlas", "Mobilitate urbană cu stil", "Escapade scurte de relaxare", "Cupluri și călători singuri", "Condus personal"],
+        "chauffeur": "{{model}} este în primul rând o mașină pentru condus personal, pentru pasionații de condus; un șofer poate fi organizat la cerere."
+      },
+      "compact": {
+        "why": "{{model}} este modul inteligent de a te deplasa prin Marrakech — ușor de parcat, eficientă și confortabilă pentru oraș, Hivernage și trasee scurte, fără a renunța la un finisaj curat și premium.",
+        "bestFor": ["Condus în oraș și în jurul Medinei", "Parcare ușoară în Guéliz și Hivernage", "Preluare de la aeroport și sejururi scurte", "Călători atenți la buget", "Condus personal"],
+        "chauffeur": "{{model}} este gândită pentru condus personal în oraș; un șofer poate fi adăugat dacă preferi."
+      }
+    }
+  },
+  "pagesSeo": {
+    "home": "Închiriere mașini de lux la Marrakech cu livrare VIP în Maroc",
+    "fleet": "Închiriere mașini de lux în Marrakech",
+    "vip": "Servicii VIP cu mașină de lux în Maroc",
+    "chauffeur": "Șofer privat în Marrakech",
+    "weddings": "Mașină de nuntă în Marrakech",
+    "about": "Concierge auto de lux în Marrakech din 2018",
+    "contact": "Rezervă o mașină de lux în Marrakech"
+  },
+  "pageContent": {
+    "fleet": {
+      "introH": "Flota noastră de mașini de lux în Marrakech",
+      "introP": "Flota noastră de mașini de lux în Marrakech cuprinde de la mașini de oraș eficiente până la SUV-uri ultra-lux, fiecare livrat prin predare VIP la hotelul, riad-ul, vila privată sau aeroportul Marrakech Menara. Indiferent ce alegi, mașina este pregătită la standard concierge și predată acolo unde te afli — fără ghișeu de agenție, fără așteptare.",
+      "casesH": "Alegerea în funcție de utilizare",
+      "cases": ["Transferuri aeroport și sosiri VIP — Mercedes Clasa V, Range Rover", "Nunți și evenimente — Bentley Bentayga, Range Rover Vogue", "Rute spre Agafay, Ourika și Atlas — Porsche Cayenne, Range Rover Sport", "Sejururi de afaceri și deplasări în oraș — BMW Seria 5, Mercedes CLA", "Condus urban atent la buget — Volkswagen Golf, Fiat 500"],
+      "threeH": "Livrare VIP în Marrakech și Maroc",
+      "threeP": "Fiecare vehicul este livrat în tot Marrakech — Hivernage, Guéliz, Palmeraie, riad-uri în Medina și vile private — și mai departe spre Agafay, Essaouira, Casablanca și Ouarzazate la cerere, cu un singur contact de la rezervare până la returnare.",
+      "bookingH": "Cum rezervi",
+      "bookingP": "Spune-ne datele, adresa de livrare, durata, dacă preferi șofer privat sau condus personal și orice destinație din afara orașului Marrakech. Confirmăm disponibilitatea și condițiile în mai puțin de o oră.",
+      "extraP": "Nu știi ce mașină să alegi? Spune-ne datele și planul tău: îți recomandăm modelul potrivit din flota de la Marrakech, livrat VIP oriunde te afli — majoritatea cererilor se confirmă în aceeași zi.",
+      "faqH": "Întrebări despre flotă",
+      "faq": [{ "q": "Poate fi livrată orice mașină la aeroportul Marrakech Menara?", "a": "Da — fiecare mașină din flotă poate fi livrată și preluată la aeroportul Marrakech Menara, precum și la hotel, riad sau vilă." }, { "q": "Pot închiria cu șofer privat?", "a": "Majoritatea modelelor sunt disponibile fie pentru condus personal, fie cu un șofer privat profesionist. Spune-ne preferința la rezervare." }, { "q": "Livrați în afara orașului Marrakech?", "a": "Da — livrarea VIP este disponibilă în tot Marocul, inclusiv Agafay, Essaouira, Casablanca și Ouarzazate, la cerere." }]
+    },
+    "vip": {
+      "introH": "Servicii VIP cu mașină de lux în Maroc",
+      "introP": "Serviciile VIP Accrocar îmbină o mașină de lux, un șofer privat la cerere și livrare VIP oriunde în Maroc. De la o întâmpinare discretă la aeroport până la un itinerariu privat de mai multe zile, fiecare detaliu este organizat în jurul tău, la Marrakech și dincolo de el.",
+      "casesH": "Când se potrivește serviciul VIP",
+      "cases": ["Întâmpinare VIP la aeroportul Marrakech Menara", "Aviație privată și transferuri între orașe", "Itinerarii cu șofer pe mai multe zile", "Deplasări corporative și de delegație", "Călătorii discrete pentru persoane publice"],
+      "threeH": "Livrare și concierge în Maroc",
+      "threeP": "Livrăm la hoteluri, riad-uri, vile private și locații de evenimente în tot Marrakech — Hivernage, Guéliz, Palmeraie — și mai departe spre Casablanca, Rabat, Essaouira și deșertul Agafay, coordonate de un singur contact.",
+      "bookingH": "Cum organizezi",
+      "bookingP": "Trimite-ne datele, orașele și adresele implicate, dacă ai nevoie de șofer și itinerariul. Confirmăm disponibilitatea, traseul și condițiile în privat, de obicei în mai puțin de o oră.",
+      "extraP": "Fiecare itinerariu VIP este gestionat de un singur contact, de la primul mesaj până la ultima predare, astfel încât deplasările tale prin Maroc să rămână fluide, discrete și exact la timp.",
+      "extraP2": "Pentru sosiri VIP la aeroportul Marrakech Menara urmărim zborul, iar mașina așteaptă în punctul stabilit pentru o predare discretă și fără grabă. Fie că destinația este un hotel din Hivernage, o vilă din Palmeraie sau un riad din Medina, același contact dedicat coordonează orarele, traseul și continuarea spre Casablanca, Essaouira sau deșertul Agafay — itinerariu privat și exact la timp.",
+      "faqH": "Întrebări despre serviciul VIP",
+      "faq": [{ "q": "Este șoferul inclus în serviciile VIP?", "a": "Un șofer privat profesionist este disponibil la cerere pentru orice itinerariu VIP; condusul personal este posibil și pentru majoritatea vehiculelor." }, { "q": "Puteți coordona deplasări în mai multe orașe din Maroc?", "a": "Da — livrarea VIP și deplasările cu șofer pot fi organizate la Marrakech, Casablanca, Rabat, Essaouira și dincolo." }, { "q": "Cât de discret este serviciul?", "a": "Discreția este esențială: vehicule premium fără însemne, șoferi instruiți și predări private, fără partajarea itinerariilor." }]
+    },
+    "chauffeur": {
+      "introH": "Serviciu de șofer privat în Marrakech",
+      "introP": "Serviciul nostru de șofer privat în Marrakech combină un vehicul premium cu un șofer profesionist și discret — la oră, pe zi sau pentru tot sejurul. Ideal pentru transferuri aeroport, zile de afaceri, evenimente și excursii, la Marrakech și în tot Marocul.",
+      "casesH": "Când să alegi un șofer",
+      "cases": ["Transferuri spre și de la aeroportul Marrakech Menara", "Zile de afaceri între întâlniri și hoteluri", "Seri, cine și evenimente private", "Excursii la Agafay, Ourika și Atlas", "Deplasări în mai multe orașe din Maroc"],
+      "threeH": "Cu șofer sau condus personal",
+      "threeP": "Preferi să conduci? Cea mai mare parte a flotei este disponibilă și pentru condus personal, livrată cu rezervorul plin și pregătită la standard concierge. Alege șoferul când vrei să ajungi fără să te gândești la drum.",
+      "bookingH": "Cum rezervi",
+      "bookingP": "Spune-ne datele și orele, adresele de preluare și predare, vehiculul preferat și itinerariul. Confirmăm șoferul, vehiculul și condițiile în mai puțin de o oră.",
+      "extraP": "Fie că este o singură preluare de la aeroport sau un șofer pentru tot sejurul în Marrakech, asociem șoferul și vehiculul potrivite planului tău și confirmăm totul înainte de sosire.",
+      "extraP2": "Șoferul tău organizează fiecare zi în jurul itinerariului tău: preluări la aeroportul Marrakech Menara sincronizate cu zborul, deplasări de afaceri între Guéliz și Hivernage, evenimente de seară și plecări matinale spre Ourika sau Atlas. Punctele de preluare — hoteluri, vile din Palmeraie sau riad-uri din Medina — sunt stabilite din timp, iar șoferul confirmă orarele cu o zi înainte, astfel încât fiecare transfer să rămână calm, discret și punctual.",
+      "faqH": "Întrebări despre șofer",
+      "faq": [{ "q": "Ce limbi vorbesc șoferii?", "a": "Șoferii noștri vorbesc franceză și engleză; mai mulți vorbesc și arabă, spaniolă sau italiană." }, { "q": "Poate șoferul să rămână toată ziua?", "a": "Da — șoferii sunt disponibili la oră, jumătate de zi, zi întreagă sau pentru tot sejurul, la Marrakech sau în Maroc." }, { "q": "Ce mașini sunt disponibile cu șofer?", "a": "Cea mai mare parte a flotei, de la Mercedes Clasa V la Bentley Bentayga, poate fi rezervată cu șofer privat." }]
+    },
+    "weddings": {
+      "introH": "Închiriere mașină de nuntă în Marrakech",
+      "introP": "Închirierea unei mașini de nuntă în Marrakech cu Accrocar înseamnă o sosire impecabilă — mașina mirilor, un cortegiu coordonat sau o flotă pentru invitați, livrată la timp la locația, riad-ul sau palatul tău. Fiecare mașină este pregătită și îngrijită pentru ziua cea mare.",
+      "casesH": "Pentru ziua nunții",
+      "cases": ["Mașina mirilor pentru sosirea la ceremonie", "Cortegiu coordonat pentru cuplu și familie", "Transferuri pentru invitați de la hoteluri și riad-uri", "Vehicule pentru ședințe foto", "Întâmpinarea invitaților la aeroport"],
+      "threeH": "Livrare și sincronizare",
+      "threeP": "Livrăm la locații de nuntă în Marrakech și în regiune — Palmeraie, domenii din Agafay, riad-uri în Medina și vile private — coordonat cu wedding planner-ul tău, astfel încât mașina să fie la locul ei exact la timp.",
+      "bookingH": "Cum planifici",
+      "bookingP": "Trimite-ne data nunții, locațiile și orele, numărul de vehicule și dacă ai nevoie de șoferi. Coordonăm cu wedding planner-ul tău și confirmăm fiecare detaliu în avans.",
+      "extraP": "De la primul contact până la plecarea finală, organizăm mașinile de nuntă după programul tău la Marrakech, ca în ziua cea mare să te gândești doar la sărbătoare.",
+      "extraP2": "La Marrakech ne coordonăm direct cu wedding planner-ul tău sau cu concierge-ul locației — de la un domeniu din Palmeraie sau Agafay până la un riad din Medina sau o vilă privată — și sincronizăm fiecare mașină cu programul tău. Sosirile de la aeroportul Marrakech Menara sunt planificate după zborurile invitaților, iar mașina mirilor este poziționată și pregătită înainte de ceremonie, astfel încât fiecare intrare să aibă loc exact la momentul potrivit. Se pot organiza cortegii, navete pentru invitați și un vehicul de rezervă, astfel încât niciun moment al zilei să nu aștepte transportul.",
+      "faqH": "Întrebări despre nuntă",
+      "faq": [{ "q": "Puteți asigura mai multe mașini pentru nuntă?", "a": "Da — de la o singură mașină a mirilor până la un cortegiu complet și transferuri pentru invitați, coordonate după programul tău." }, { "q": "Mașinile de nuntă vin cu șofer?", "a": "Rezervările de nuntă includ implicit un șofer profesionist; cuplul poate conduce și personal, la cerere." }, { "q": "Lucrați cu wedding planneri?", "a": "Da — coordonăm direct cu planner-ul tău sincronizarea, locațiile și desfășurarea zilei." }]
+    }
   }
 }

@@ -3,6 +3,7 @@ import Seo from '../components/Seo'
 import PageTransition from '../components/PageTransition'
 import Reveal from '../components/animations/Reveal'
 import FinalCta from '../sections/FinalCta'
+import PageContentSections from '../components/PageContentSections'
 
 export default function PrivateChauffeur() {
   const { t } = useTranslation()
@@ -39,6 +40,9 @@ export default function PrivateChauffeur() {
           <Reveal delay={0.1}>
             <h1 className="mt-8 font-serif text-display-xl leading-[0.95] text-pearl">
               {t('chauffeur.title')}
+              <span className="mt-4 block eyebrow text-sand font-sans">
+                {t('pagesSeo.chauffeur')}
+              </span>
             </h1>
           </Reveal>
         </div>
@@ -88,6 +92,8 @@ export default function PrivateChauffeur() {
           ))}
         </div>
       </section>
+
+      <PageContentSections page="chauffeur" />
 
       <FinalCta />
     </PageTransition>

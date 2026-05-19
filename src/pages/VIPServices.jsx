@@ -4,6 +4,7 @@ import PageTransition from '../components/PageTransition'
 import Reveal, { StaggerGroup, staggerItem } from '../components/animations/Reveal'
 import { motion } from 'framer-motion'
 import FinalCta from '../sections/FinalCta'
+import PageContentSections from '../components/PageContentSections'
 
 const serviceCards = [
   {
@@ -62,6 +63,9 @@ export default function VIPServices() {
         <Reveal delay={0.1}>
           <h1 className="mt-8 font-serif text-display-xl leading-[0.95]">
             {t('vip.title')}
+            <span className="mt-4 block eyebrow text-sand font-sans">
+              {t('pagesSeo.vip')}
+            </span>
           </h1>
         </Reveal>
         <Reveal delay={0.2}>
@@ -106,6 +110,8 @@ export default function VIPServices() {
           ))}
         </StaggerGroup>
       </section>
+
+      <PageContentSections page="vip" />
 
       <FinalCta />
     </PageTransition>

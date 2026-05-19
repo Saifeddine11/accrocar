@@ -75,6 +75,9 @@ export default function Contact() {
         <Reveal delay={0.1}>
           <h1 className="mt-8 font-serif text-display-xl leading-[0.95]">
             {t('contact.title')}
+            <span className="mt-4 block eyebrow text-sand font-sans">
+              {t('pagesSeo.contact')}
+            </span>
           </h1>
         </Reveal>
         <Reveal delay={0.2}>

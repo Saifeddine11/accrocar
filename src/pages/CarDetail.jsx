@@ -5,10 +5,12 @@ import { useTranslation } from 'react-i18next'
 import Seo from '../components/Seo'
 import PageTransition from '../components/PageTransition'
 import Reveal from '../components/animations/Reveal'
+import { Link } from 'react-router-dom'
 import { getCarById } from '../data/cars'
 import BookingForm from '../components/BookingForm'
 import { localizePath, fullUrl } from '../lib/routes'
 import { useLang } from '../lib/useLang'
+import { carProfile, similarCars, contextualBlogSlug } from '../data/carContentProfile'
 
 const OG_DEFAULT = 'https://accrocar.com/bently.webp'
 
@@ -97,6 +99,19 @@ export default function CarDetail() {
 
   const seoImage = car.image || OG_DEFAULT
 
+  // ── Unique, category-aware editorial content (Seobility content depth) ──
+  const profile = carProfile(car.category)
+  const priceStr = car.pricePerDay.toLocaleString(
+    i18n.language === 'en' ? 'en-GB' : i18n.language,
+  )
+  const tv = { brand: car.brand, model: car.model, price: priceStr }
+  const bestFor = t(`carDetailContent.profiles.${profile}.bestFor`, {
+    returnObjects: true,
+    ...tv,
+  })
+  const similar = similarCars(car)
+  const blogSlug = contextualBlogSlug(car)
+
   return (
     <PageTransition>
       <Seo
@@ -151,7 +166,10 @@ export default function CarDetail() {
           </Reveal>
           <Reveal delay={0.1}>
             <h1 className="mt-6 font-serif text-display-xl leading-[0.95] text-pearl">
-              {car.model}
+              {car.brand} {car.model}
+              <span className="mt-4 block eyebrow text-sand font-sans">
+                {t('carDetailContent.h1Suffix')}
+              </span>
             </h1>
           </Reveal>
           <Reveal delay={0.2}>
@@ -224,6 +242,136 @@ export default function CarDetail() {
             </Reveal>
             <BookingForm car={car} />
           </div>
+        </div>
+      </section>
+
+      {/* ── Editorial content: unique per model, category-aware ───────────── */}
+      <section className="section bg-pearl text-obsidian border-t border-sand/40">
+        <div className="container-editorial max-w-3xl">
+          <Reveal>
+            <h2 className="font-serif text-display-sm leading-tight">
+              {t('carDetailContent.introHeading', tv)}
+            </h2>
+          </Reveal>
+          <Reveal delay={0.05}>
+            <p className="mt-6 text-obsidian/80 leading-relaxed text-[15.5px] md:text-base">
+              {t('carDetailContent.intro', tv)}
+            </p>
+          </Reveal>
+
+          <Reveal delay={0.05}>
+            <h3 className="mt-12 font-serif text-2xl md:text-3xl tracking-tight border-l-[3px] border-crimson pl-4">
+              {t('carDetailContent.whyHeading', tv)}
+            </h3>
+          </Reveal>
+          <Reveal delay={0.05}>
+            <p className="mt-5 text-obsidian/80 leading-relaxed text-[15.5px] md:text-base">
+              {t(`carDetailContent.profiles.${profile}.why`, tv)}
+            </p>
+          </Reveal>
+
+          <Reveal delay={0.05}>
+            <h3 className="mt-12 font-serif text-2xl md:text-3xl tracking-tight border-l-[3px] border-crimson pl-4">
+              {t('carDetailContent.bestForHeading', tv)}
+            </h3>
+          </Reveal>
+          <Reveal delay={0.05}>
+            <ul className="mt-5 space-y-2.5">
+              {(Array.isArray(bestFor) ? bestFor : []).map((item) => (
+                <li
+                  key={item}
+                  className="flex gap-3 text-obsidian/80 leading-relaxed text-[15.5px] md:text-base"
+                >
+                  <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-crimson" />
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </Reveal>
+
+          <Reveal delay={0.05}>
+            <h3 className="mt-12 font-serif text-2xl md:text-3xl tracking-tight border-l-[3px] border-crimson pl-4">
+              {t('carDetailContent.deliveryHeading', tv)}
+            </h3>
+          </Reveal>
+          <Reveal delay={0.05}>
+            <p className="mt-5 text-obsidian/80 leading-relaxed text-[15.5px] md:text-base">
+              {t('carDetailContent.delivery', tv)}
+            </p>
+          </Reveal>
+
+          <Reveal delay={0.05}>
+            <h3 className="mt-12 font-serif text-2xl md:text-3xl tracking-tight border-l-[3px] border-crimson pl-4">
+              {t('carDetailContent.chauffeurHeading', tv)}
+            </h3>
+          </Reveal>
+          <Reveal delay={0.05}>
+            <p className="mt-5 text-obsidian/80 leading-relaxed text-[15.5px] md:text-base">
+              {t(`carDetailContent.profiles.${profile}.chauffeur`, tv)}
+            </p>
+          </Reveal>
+
+          <Reveal delay={0.05}>
+            <h3 className="mt-12 font-serif text-2xl md:text-3xl tracking-tight border-l-[3px] border-crimson pl-4">
+              {t('carDetailContent.bookingHeading', tv)}
+            </h3>
+          </Reveal>
+          <Reveal delay={0.05}>
+            <p className="mt-5 text-obsidian/80 leading-relaxed text-[15.5px] md:text-base">
+              {t('carDetailContent.booking', tv)}
+            </p>
+          </Reveal>
+
+          {/* Internal links — related services, blog, similar models */}
+          <Reveal delay={0.05}>
+            <p className="mt-14 eyebrow flex items-center gap-3 text-sand">
+              <span className="hairline" />
+              {t('carDetailContent.relatedHeading')}
+            </p>
+          </Reveal>
+          <Reveal delay={0.05}>
+            <div className="mt-6 flex flex-wrap gap-x-8 gap-y-3 text-[15px]">
+              <Link to={localizePath('fleet', lang)} className="link-reveal text-obsidian">
+                {t('carDetailContent.linkFleet')}
+              </Link>
+              <Link to={localizePath('chauffeur', lang)} className="link-reveal text-obsidian">
+                {t('carDetailContent.linkChauffeur')}
+              </Link>
+              <Link to={localizePath('weddings', lang)} className="link-reveal text-obsidian">
+                {t('carDetailContent.linkWeddings')}
+              </Link>
+              <Link to={localizePath('contact', lang)} className="link-reveal text-obsidian">
+                {t('carDetailContent.linkContact')}
+              </Link>
+              <Link
+                to={localizePath('blogPost', lang, { slug: blogSlug })}
+                className="link-reveal text-obsidian"
+              >
+                {t('carDetailContent.linkBlog')}
+              </Link>
+            </div>
+          </Reveal>
+
+          {similar.length > 0 && (
+            <Reveal delay={0.05}>
+              <div className="mt-10 border-t border-sand/40 pt-8">
+                <p className="eyebrow text-sand">
+                  {t('carDetailContent.similarHeading')}
+                </p>
+                <div className="mt-4 flex flex-wrap gap-x-8 gap-y-3 text-[15px]">
+                  {similar.map((s) => (
+                    <Link
+                      key={s.id}
+                      to={localizePath('carDetail', lang, { id: s.id })}
+                      className="link-reveal text-obsidian"
+                    >
+                      {s.brand} {s.model}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            </Reveal>
+          )}
         </div>
       </section>
     </PageTransition>

@@ -37,6 +37,9 @@ export default function About() {
         <Reveal delay={0.1}>
           <h1 className="mt-8 font-serif text-display-xl leading-[0.95]">
             {t('about.title')}
+            <span className="mt-4 block eyebrow text-sand font-sans">
+              {t('pagesSeo.about')}
+            </span>
           </h1>
         </Reveal>
         <Reveal delay={0.2}>

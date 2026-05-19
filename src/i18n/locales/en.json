@@ -478,5 +478,122 @@
       "transmission": "Transmission",
       "year": "Year"
     }
+  },
+  "carDetailContent": {
+    "h1Suffix": "luxury car rental in Marrakech",
+    "introHeading": "{{brand}} {{model}} rental in Marrakech",
+    "intro": "Rent the {{brand}} {{model}} in Marrakech with Accrocar, from {{price}} € / day, with VIP delivery to your hotel, riad, private villa or directly at Marrakech Menara Airport. Every {{brand}} {{model}} is prepared to concierge standard and handed over wherever you are in the city — no agency counter, no waiting.",
+    "whyHeading": "Why the {{brand}} {{model}}",
+    "bestForHeading": "Best for",
+    "deliveryHeading": "VIP delivery across Marrakech & Morocco",
+    "delivery": "We deliver the {{brand}} {{model}} to Marrakech Menara Airport, the Hivernage and Guéliz districts, the Palmeraie, riads inside the Medina and private villas. Beyond Marrakech we also cover Agafay, the Ourika valley, Essaouira and Casablanca on request, with a single point of contact from booking to return.",
+    "chauffeurHeading": "Chauffeur or self-drive",
+    "bookingHeading": "How to book",
+    "booking": "Send us your rental dates, the delivery address, the rental duration, whether you prefer a private chauffeur or self-drive, and any destination outside Marrakech. We confirm availability and final terms within the hour.",
+    "relatedHeading": "Continue",
+    "linkFleet": "See the full fleet",
+    "linkChauffeur": "Private chauffeur service",
+    "linkWeddings": "Weddings & events",
+    "linkContact": "Request a quote",
+    "linkBlog": "Read our Marrakech guide",
+    "similarHeading": "Similar models",
+    "profiles": {
+      "ultra": {
+        "why": "The {{model}} is Bentley's statement of arrival — hand-finished, serene and unmistakable. In Marrakech it belongs at the door of a palace, a private estate or a wedding, where presence matters as much as comfort.",
+        "bestFor": ["Weddings and private celebrations", "Palace and luxury-hotel arrivals", "VIP welcome at Marrakech Menara Airport", "Discreet executive travel", "Chauffeur-driven occasions"],
+        "chauffeur": "Most clients choose the {{model}} with a private chauffeur for events and arrivals, though self-drive remains available for confident drivers."
+      },
+      "luxurySuv": {
+        "why": "The {{model}} balances commanding comfort with real capability — equally at ease on the Guéliz boulevards and the climbing roads toward the Atlas. It is our most versatile choice for travellers who mix business, leisure and exploration.",
+        "bestFor": ["Day trips to Agafay and the Ourika valley", "Atlas and Ouarzazate road routes", "Business stays and hotel transfers", "Families and couples with luggage", "Self-drive or chauffeur"],
+        "chauffeur": "The {{model}} works perfectly both self-driven and with a private chauffeur, depending on whether you want to drive the mountain roads yourself."
+      },
+      "van": {
+        "why": "The {{model}} is built for VIP group travel — generous space, premium seating and room for luggage. It is the natural choice for families, delegations and airport transfers where everyone travels together in comfort.",
+        "bestFor": ["Group airport transfers at Marrakech Menara", "Families travelling with luggage", "Corporate and delegation transport", "Multi-day private tours", "Chauffeur-driven group travel"],
+        "chauffeur": "The {{model}} is most often booked with a private chauffeur for transfers and group itineraries, while self-drive remains available."
+      },
+      "executive": {
+        "why": "The {{model}} delivers understated executive comfort — quiet, refined and ideal for longer routes and business travel between meetings, hotels and the airport.",
+        "bestFor": ["Business stays in Marrakech", "Airport and hotel transfers", "Longer routes to Casablanca or Essaouira", "A discreet professional image", "Self-drive or chauffeur"],
+        "chauffeur": "Equally suited to self-drive and chauffeur service for business itineraries and airport transfers."
+      },
+      "sport": {
+        "why": "The {{model}} is for driving — sharp, responsive and engaging on the open roads toward Ourika and the Atlas, while keeping the comfort and presence expected of a premium car in the city.",
+        "bestFor": ["Driving the Ourika and Atlas roads", "Design-conscious city travel", "Short leisure escapes", "Couples and solo travellers", "Self-drive"],
+        "chauffeur": "The {{model}} is primarily a self-drive car for clients who enjoy driving; a chauffeur can be arranged on request."
+      },
+      "compact": {
+        "why": "The {{model}} is the smart way to move around Marrakech — easy to park, efficient and comfortable for the city, the Hivernage and short trips, without compromising on a clean, premium feel.",
+        "bestFor": ["City driving and Medina-adjacent streets", "Easy parking in Guéliz and Hivernage", "Airport pick-up and short stays", "Budget-aware travellers", "Self-drive"],
+        "chauffeur": "The {{model}} is designed for self-drive city use; a chauffeur can be added if preferred."
+      }
+    }
+  },
+  "pagesSeo": {
+    "home": "Luxury car rental in Marrakech with VIP delivery across Morocco",
+    "fleet": "Luxury car fleet in Marrakech",
+    "vip": "VIP car services in Morocco",
+    "chauffeur": "Private chauffeur service in Marrakech",
+    "weddings": "Wedding car rental in Marrakech",
+    "about": "Luxury car concierge in Marrakech since 2018",
+    "contact": "Book a luxury car in Marrakech"
+  },
+  "pageContent": {
+    "fleet": {
+      "introH": "Luxury car fleet in Marrakech",
+      "introP": "Our luxury car fleet in Marrakech spans efficient city cars to ultra-luxury SUVs, each delivered by VIP handover to your hotel, riad, private villa or Marrakech Menara Airport. Whatever you choose, the car is prepared to concierge standard and handed over wherever you are — no agency counter, no waiting.",
+      "casesH": "Choosing by use case",
+      "cases": ["Airport transfers and VIP arrivals — Mercedes V-Class, Range Rover", "Weddings and events — Bentley Bentayga, Range Rover Vogue", "Agafay, Ourika and Atlas routes — Porsche Cayenne, Range Rover Sport", "Business stays and city travel — BMW 5 Series, Mercedes CLA", "Budget-aware city driving — Volkswagen Golf, Fiat 500"],
+      "threeH": "VIP delivery across Marrakech & Morocco",
+      "threeP": "Every vehicle is delivered across Marrakech — Hivernage, Guéliz, the Palmeraie, Medina riads and private villas — and beyond to Agafay, Essaouira, Casablanca and Ouarzazate on request, with one point of contact from booking to return.",
+      "bookingH": "How to book",
+      "bookingP": "Tell us your dates, the delivery address, the rental duration, whether you want a private chauffeur or self-drive, and any destination outside Marrakech. We confirm availability and final terms within the hour.",
+      "extraP": "Not sure which car fits your trip? Tell us your dates and plans and we'll recommend the right model from the Marrakech fleet, delivered VIP wherever you are — most requests are confirmed the same day.",
+      "faqH": "Fleet questions",
+      "faq": [{ "q": "Can any car be delivered to Marrakech Menara Airport?", "a": "Yes — every car in the fleet can be delivered to and collected from Marrakech Menara Airport, as well as your hotel, riad or villa." }, { "q": "Can I rent with a private chauffeur?", "a": "Most models are available either self-drive or with a professional private chauffeur. Tell us your preference when you book." }, { "q": "Do you deliver outside Marrakech?", "a": "Yes — VIP delivery is available across Morocco, including Agafay, Essaouira, Casablanca and Ouarzazate, on request." }]
+    },
+    "vip": {
+      "introH": "VIP car services in Morocco",
+      "introP": "Accrocar VIP car services combine a luxury vehicle, a private chauffeur on request and VIP delivery anywhere in Morocco. From a discreet airport welcome to a multi-day private itinerary, every detail is arranged around you, in Marrakech and beyond.",
+      "casesH": "When VIP service fits",
+      "cases": ["VIP airport welcome at Marrakech Menara", "Private aviation and intercity transfers", "Multi-day chauffeured itineraries", "Corporate and delegation travel", "Discreet travel for public figures"],
+      "threeH": "Delivery & concierge across Morocco",
+      "threeP": "We deliver to hotels, riads, private villas and event venues across Marrakech — Hivernage, Guéliz, the Palmeraie — and onward to Casablanca, Rabat, Essaouira and the Agafay desert, coordinated by a single point of contact.",
+      "bookingH": "How to arrange",
+      "bookingP": "Share your dates, the cities and addresses involved, whether you need a chauffeur, and your itinerary. We confirm availability, routing and final terms privately, usually within the hour.",
+      "extraP": "Every VIP itinerary is handled by one dedicated contact, from the first message to the final drop-off, so your travel across Morocco stays seamless, private and exactly on schedule.",
+      "extraP2": "For VIP arrivals at Marrakech Menara Airport we track the flight and have the car waiting at the agreed point for a discreet, unhurried handover. Whether the destination is a Hivernage hotel, a Palmeraie villa or a Medina riad, the same dedicated contact coordinates timing, routing and any onward travel to Casablanca, Essaouira or the Agafay desert — keeping the itinerary private and precisely on schedule.",
+      "faqH": "VIP service questions",
+      "faq": [{ "q": "Is a chauffeur included in VIP services?", "a": "A professional private chauffeur is available on request for any VIP itinerary; self-drive is also possible for most vehicles." }, { "q": "Can you coordinate travel in several Moroccan cities?", "a": "Yes — VIP delivery and chauffeured travel can be arranged across Marrakech, Casablanca, Rabat, Essaouira and beyond." }, { "q": "How discreet is the service?", "a": "Discretion is central: unmarked premium vehicles, trained chauffeurs and private handovers, with no itineraries shared." }]
+    },
+    "chauffeur": {
+      "introH": "Private chauffeur service in Marrakech",
+      "introP": "Our private chauffeur service in Marrakech pairs a premium vehicle with a professional, discreet driver — by the hour, the day or for your full stay. Ideal for airport transfers, business days, events and excursions, in Marrakech and across Morocco.",
+      "casesH": "When to choose a chauffeur",
+      "cases": ["Airport transfers to and from Marrakech Menara", "Business days between meetings and hotels", "Evenings, dinners and private events", "Excursions to Agafay, Ourika and the Atlas", "Multi-city travel across Morocco"],
+      "threeH": "Chauffeur or self-drive",
+      "threeP": "Prefer to drive yourself? Most of our fleet is also available self-drive, delivered with a full tank and prepared to concierge standard. Choose a chauffeur when you want to arrive without thinking about the road.",
+      "bookingH": "How to book",
+      "bookingP": "Tell us the dates and times, pick-up and drop-off addresses, the vehicle you prefer, and the itinerary. We confirm your chauffeur, vehicle and final terms within the hour.",
+      "extraP": "Whether it's a single airport pickup or a chauffeur for your whole stay in Marrakech, we match the right driver and vehicle to your plans and confirm everything before you arrive.",
+      "extraP2": "Your chauffeur plans each day around your itinerary, not the other way round: airport pickups at Marrakech Menara timed to the flight, business runs between Guéliz and Hivernage, evening events and early departures for Ourika or the Atlas. Pick-up points at hotels, Palmeraie villas or Medina riads are agreed in advance, and the driver confirms timings the day before so every transfer stays calm, discreet and exactly on time.",
+      "faqH": "Chauffeur questions",
+      "faq": [{ "q": "What languages do the chauffeurs speak?", "a": "Our chauffeurs speak French and English; several also speak Arabic, Spanish or Italian." }, { "q": "Can the chauffeur stay for the full day?", "a": "Yes — chauffeurs are available by the hour, half-day, full day or for your entire stay, in Marrakech or across Morocco." }, { "q": "Which cars are available with a chauffeur?", "a": "Most of the fleet, from the Mercedes V-Class to the Bentley Bentayga, can be booked with a private chauffeur." }]
+    },
+    "weddings": {
+      "introH": "Wedding car rental in Marrakech",
+      "introP": "Wedding car rental in Marrakech with Accrocar means a flawless arrival — a bridal car, a coordinated motorcade or a fleet for your guests, delivered on time to your venue, riad or palace. Every car is prepared and styled for the day.",
+      "casesH": "For your wedding day",
+      "cases": ["Bridal car for the ceremony arrival", "Coordinated motorcade for the couple and family", "Guest transfers from hotels and riads", "Photo and content-shoot vehicles", "Airport welcome for arriving guests"],
+      "threeH": "Delivery & timing",
+      "threeP": "We deliver to wedding venues across Marrakech and the region — the Palmeraie, Agafay domains, Medina riads and private villas — coordinated to your run sheet with your planner so the car is in place exactly on time.",
+      "bookingH": "How to plan",
+      "bookingP": "Share the wedding date, venues and timings, the number of vehicles, and whether you need chauffeurs. We coordinate with your wedding planner and confirm every detail in advance.",
+      "extraP": "From the first viewing to the final departure, we plan your wedding cars around your timeline in Marrakech, so the only thing you think about on the day is the celebration itself.",
+      "extraP2": "In Marrakech we coordinate directly with your wedding planner or venue concierge — from a Palmeraie estate or an Agafay domain to a Medina riad or private villa — and time each car to your run sheet. Arrivals from Marrakech Menara Airport are scheduled around guest flights, and the bridal car is positioned and styled before the ceremony, so every entrance happens exactly when it should. Convoys, guest shuttles and a backup vehicle can be arranged so no part of the day waits on transport.",
+      "faqH": "Wedding questions",
+      "faq": [{ "q": "Can you provide several cars for the wedding?", "a": "Yes — from a single bridal car to a full motorcade and guest transfers, coordinated to your schedule." }, { "q": "Do wedding cars come with a chauffeur?", "a": "Wedding bookings include a professional chauffeur by default; the couple may also self-drive on request." }, { "q": "Do you work with wedding planners?", "a": "Yes — we coordinate directly with your planner on timing, venues and the run sheet." }]
+    }
   }
 }

@@ -480,5 +480,122 @@
       "transmission": "Versnelling",
       "year": "Jaar"
     }
+  },
+  "carDetailContent": {
+    "h1Suffix": "luxe autoverhuur in Marrakech",
+    "introHeading": "{{brand}} {{model}} huren in Marrakech",
+    "intro": "Huur de {{brand}} {{model}} in Marrakech bij Accrocar, vanaf {{price}} € / dag, met VIP-bezorging op uw hotel, riad, privévilla of rechtstreeks op de luchthaven Marrakech Menara. Elke {{brand}} {{model}} wordt op concierge-niveau voorbereid en geleverd waar u bent — geen balie, geen wachttijd.",
+    "whyHeading": "Waarom de {{brand}} {{model}}",
+    "bestForHeading": "Ideaal voor",
+    "deliveryHeading": "VIP-bezorging in Marrakech en Marokko",
+    "delivery": "Wij bezorgen de {{brand}} {{model}} op de luchthaven Marrakech Menara, in de wijken Hivernage en Guéliz, in de Palmeraie, in riads in de Medina en privévilla's. Buiten Marrakech dekken we ook Agafay, de Ourika-vallei, Essaouira en Casablanca op aanvraag, met één contactpersoon van reservering tot teruggave.",
+    "chauffeurHeading": "Met chauffeur of zelf rijden",
+    "bookingHeading": "Zo reserveert u",
+    "booking": "Geef ons uw huurdata door, het bezorgadres, de duur, of u een privéchauffeur of zelf rijden wenst, en eventuele bestemming buiten Marrakech. Wij bevestigen beschikbaarheid en voorwaarden binnen het uur.",
+    "relatedHeading": "Ontdek",
+    "linkFleet": "Bekijk de hele vloot",
+    "linkChauffeur": "Privéchauffeur-service",
+    "linkWeddings": "Bruiloften & evenementen",
+    "linkContact": "Offerte aanvragen",
+    "linkBlog": "Lees onze Marrakech-gids",
+    "similarHeading": "Vergelijkbare modellen",
+    "profiles": {
+      "ultra": {
+        "why": "De {{model}} is Bentley's statement van aankomst — met de hand afgewerkt, stil en onmiskenbaar. In Marrakech hoort hij voor een paleis, een privédomein of een bruiloft, waar aanwezigheid net zo belangrijk is als comfort.",
+        "bestFor": ["Bruiloften en privévieringen", "Aankomst bij paleizen en luxehotels", "VIP-ontvangst op luchthaven Marrakech Menara", "Discrete executive verplaatsingen", "Gelegenheden met chauffeur"],
+        "chauffeur": "De meeste klanten kiezen de {{model}} met privéchauffeur voor evenementen en aankomsten; zelf rijden blijft mogelijk."
+      },
+      "luxurySuv": {
+        "why": "De {{model}} combineert imponerend comfort met echte capaciteit — even goed op de boulevards van Guéliz als op de klimmende wegen richting de Atlas. Het is onze meest veelzijdige keuze voor wie zaken, ontspanning en ontdekking combineert.",
+        "bestFor": ["Dagtochten naar Agafay en de Ourika-vallei", "Routes naar de Atlas en Ouarzazate", "Zakenverblijven en hoteltransfers", "Gezinnen en koppels met bagage", "Zelf rijden of met chauffeur"],
+        "chauffeur": "De {{model}} werkt perfect zowel zelf gereden als met privéchauffeur, afhankelijk van of u de bergwegen zelf wilt rijden."
+      },
+      "van": {
+        "why": "De {{model}} is gebouwd voor VIP-groepsvervoer — ruime ruimte, premium stoelen en plaats voor bagage. Het is de natuurlijke keuze voor gezinnen, delegaties en luchthaventransfers waar iedereen samen en comfortabel reist.",
+        "bestFor": ["Groepstransfers op luchthaven Marrakech Menara", "Gezinnen met bagage", "Zakelijk en delegatievervoer", "Privérondreizen van meerdere dagen", "Groepsreizen met chauffeur"],
+        "chauffeur": "De {{model}} wordt meestal met privéchauffeur geboekt voor transfers en groepsroutes; zelf rijden blijft beschikbaar."
+      },
+      "executive": {
+        "why": "De {{model}} biedt ingetogen executive comfort — stil, verfijnd en ideaal voor langere routes en zakenreizen tussen vergaderingen, hotels en de luchthaven.",
+        "bestFor": ["Zakenverblijven in Marrakech", "Luchthaven- en hoteltransfers", "Langere routes naar Casablanca of Essaouira", "Een discreet professioneel imago", "Zelf rijden of met chauffeur"],
+        "chauffeur": "Even geschikt voor zelf rijden als met chauffeur voor zakelijke routes en transfers."
+      },
+      "sport": {
+        "why": "De {{model}} is om te rijden — scherp, responsief en boeiend op de open wegen richting Ourika en de Atlas, met het comfort en de uitstraling van een premium auto in de stad.",
+        "bestFor": ["De wegen naar Ourika en de Atlas", "Stadsverplaatsing met stijl", "Korte ontspannende uitstapjes", "Koppels en soloreizigers", "Zelf rijden"],
+        "chauffeur": "De {{model}} is vooral een auto om zelf te rijden voor liefhebbers; een chauffeur kan op aanvraag."
+      },
+      "compact": {
+        "why": "De {{model}} is de slimme manier om je door Marrakech te verplaatsen — makkelijk te parkeren, zuinig en comfortabel voor de stad, Hivernage en korte ritten, zonder in te leveren op een nette, premium uitstraling.",
+        "bestFor": ["Stadsrijden en rond de Medina", "Makkelijk parkeren in Guéliz en Hivernage", "Luchthavenophaling en korte verblijven", "Budgetbewuste reizigers", "Zelf rijden"],
+        "chauffeur": "De {{model}} is bedoeld om zelf te rijden in de stad; een chauffeur kan worden toegevoegd indien gewenst."
+      }
+    }
+  },
+  "pagesSeo": {
+    "home": "Luxe autoverhuur in Marrakech met VIP-bezorging in Marokko",
+    "fleet": "Luxe autoverhuur in Marrakech",
+    "vip": "VIP-autodiensten in Marokko",
+    "chauffeur": "Privéchauffeur in Marrakech",
+    "weddings": "Trouwauto huren in Marrakech",
+    "about": "Luxe auto-concierge in Marrakech sinds 2018",
+    "contact": "Boek een luxe auto in Marrakech"
+  },
+  "pageContent": {
+    "fleet": {
+      "introH": "Onze luxe autovloot in Marrakech",
+      "introP": "Onze luxe autovloot in Marrakech loopt van zuinige stadsauto's tot ultra-luxe SUV's, elk geleverd met VIP-overdracht op uw hotel, riad, privévilla of de luchthaven Marrakech Menara. Wat u ook kiest, de auto wordt op concierge-niveau voorbereid en geleverd waar u bent — geen balie, geen wachttijd.",
+      "casesH": "Kiezen op gebruik",
+      "cases": ["Luchthaventransfers en VIP-aankomsten — Mercedes V-Klasse, Range Rover", "Bruiloften en evenementen — Bentley Bentayga, Range Rover Vogue", "Routes naar Agafay, Ourika en de Atlas — Porsche Cayenne, Range Rover Sport", "Zakenverblijven en stadsritten — BMW 5-serie, Mercedes CLA", "Budgetbewust stadsrijden — Volkswagen Golf, Fiat 500"],
+      "threeH": "VIP-bezorging in Marrakech en Marokko",
+      "threeP": "Elk voertuig wordt door heel Marrakech geleverd — Hivernage, Guéliz, de Palmeraie, Medina-riads en privévilla's — en daarbuiten naar Agafay, Essaouira, Casablanca en Ouarzazate op aanvraag, met één contactpersoon van reservering tot teruggave.",
+      "bookingH": "Zo reserveert u",
+      "bookingP": "Geef ons uw data door, het bezorgadres, de duur, of u een privéchauffeur of zelf rijden wenst, en eventuele bestemming buiten Marrakech. Wij bevestigen beschikbaarheid en voorwaarden binnen het uur.",
+      "extraP": "Niet zeker welke auto past? Geef ons uw data en plannen door: wij adviseren het juiste model uit de Marrakech-vloot, met VIP-bezorging waar u ook bent — de meeste aanvragen worden dezelfde dag bevestigd.",
+      "faqH": "Vragen over de vloot",
+      "faq": [{ "q": "Kan elke auto op de luchthaven Marrakech Menara worden geleverd?", "a": "Ja — elke auto in de vloot wordt geleverd en opgehaald op de luchthaven Marrakech Menara, evenals op uw hotel, riad of villa." }, { "q": "Kan ik huren met een privéchauffeur?", "a": "De meeste modellen zijn beschikbaar zonder chauffeur of met een professionele privéchauffeur. Geef uw voorkeur door bij het reserveren." }, { "q": "Bezorgt u buiten Marrakech?", "a": "Ja — VIP-bezorging is beschikbaar in heel Marokko, waaronder Agafay, Essaouira, Casablanca en Ouarzazate, op aanvraag." }]
+    },
+    "vip": {
+      "introH": "VIP-autodiensten in Marokko",
+      "introP": "De VIP-autodiensten van Accrocar combineren een luxe voertuig, een privéchauffeur op aanvraag en VIP-bezorging overal in Marokko. Van een discrete ontvangst op de luchthaven tot een privéreis van meerdere dagen — elk detail wordt rond u georganiseerd, in Marrakech en daarbuiten.",
+      "casesH": "Wanneer VIP-service past",
+      "cases": ["VIP-ontvangst op luchthaven Marrakech Menara", "Privéluchtvaart en transfers tussen steden", "Chauffeurreizen van meerdere dagen", "Zakelijk en delegatievervoer", "Discrete reizen voor publieke personen"],
+      "threeH": "Bezorging en concierge in Marokko",
+      "threeP": "Wij bezorgen bij hotels, riads, privévilla's en evenementenlocaties door heel Marrakech — Hivernage, Guéliz, de Palmeraie — en verder naar Casablanca, Rabat, Essaouira en de Agafay-woestijn, gecoördineerd door één contactpersoon.",
+      "bookingH": "Zo regelt u het",
+      "bookingP": "Deel uw data, de betrokken steden en adressen, of u een chauffeur nodig hebt en uw reisroute. Wij bevestigen beschikbaarheid, route en voorwaarden privé, meestal binnen het uur.",
+      "extraP": "Elke VIP-reis wordt door één vaste contactpersoon begeleid, van het eerste bericht tot de laatste afzet, zodat uw reizen door Marokko soepel, discreet en exact op tijd blijven.",
+      "extraP2": "Voor VIP-aankomsten op de luchthaven Marrakech Menara volgen we de vlucht en staat de auto klaar op het afgesproken punt voor een discrete, rustige overdracht. Of de bestemming nu een hotel in Hivernage, een villa in de Palmeraie of een Medina-riad is, dezelfde vaste contactpersoon coördineert tijden, route en eventuele doorreis naar Casablanca, Essaouira of de Agafay-woestijn — privé en exact op schema.",
+      "faqH": "Vragen over de VIP-service",
+      "faq": [{ "q": "Is een chauffeur inbegrepen bij de VIP-diensten?", "a": "Een professionele privéchauffeur is op aanvraag beschikbaar voor elke VIP-reis; zelf rijden is ook mogelijk voor de meeste voertuigen." }, { "q": "Kunt u reizen in meerdere Marokkaanse steden coördineren?", "a": "Ja — VIP-bezorging en chauffeurreizen kunnen worden geregeld in Marrakech, Casablanca, Rabat, Essaouira en daarbuiten." }, { "q": "Hoe discreet is de service?", "a": "Discretie staat centraal: premium voertuigen zonder kenmerken, getrainde chauffeurs en privé-overdrachten, zonder reisroutes te delen." }]
+    },
+    "chauffeur": {
+      "introH": "Privéchauffeur-service in Marrakech",
+      "introP": "Onze privéchauffeur-service in Marrakech koppelt een premium voertuig aan een professionele, discrete chauffeur — per uur, per dag of voor uw hele verblijf. Ideaal voor luchthaventransfers, zakendagen, evenementen en excursies, in Marrakech en in heel Marokko.",
+      "casesH": "Wanneer een chauffeur kiezen",
+      "cases": ["Transfers van en naar luchthaven Marrakech Menara", "Zakendagen tussen vergaderingen en hotels", "Avonden, diners en privé-evenementen", "Excursies naar Agafay, Ourika en de Atlas", "Reizen tussen meerdere steden in Marokko"],
+      "threeH": "Met chauffeur of zelf rijden",
+      "threeP": "Liever zelf rijden? Het grootste deel van onze vloot is ook beschikbaar zonder chauffeur, geleverd met volle tank en voorbereid op concierge-niveau. Kies een chauffeur wanneer u wilt aankomen zonder aan de weg te denken.",
+      "bookingH": "Zo reserveert u",
+      "bookingP": "Geef ons de data en tijden, ophaal- en afzetadressen, het gewenste voertuig en de reisroute. Wij bevestigen uw chauffeur, het voertuig en de voorwaarden binnen het uur.",
+      "extraP": "Of het nu om één luchthavenophaling gaat of een chauffeur voor uw hele verblijf in Marrakech, wij koppelen de juiste chauffeur en auto aan uw plannen en bevestigen alles vóór aankomst.",
+      "extraP2": "Uw chauffeur plant elke dag rond uw reisschema: ophalingen op de luchthaven Marrakech Menara afgestemd op de vlucht, zakelijke ritten tussen Guéliz en Hivernage, avondevenementen en vroege vertrekken naar Ourika of de Atlas. Ophaalpunten — hotels, Palmeraie-villa's of Medina-riads — worden vooraf afgesproken, en de chauffeur bevestigt de tijden de dag ervoor zodat elke transfer rustig, discreet en stipt blijft.",
+      "faqH": "Vragen over de chauffeur",
+      "faq": [{ "q": "Welke talen spreken de chauffeurs?", "a": "Onze chauffeurs spreken Frans en Engels; meerdere spreken ook Arabisch, Spaans of Italiaans." }, { "q": "Kan de chauffeur de hele dag blijven?", "a": "Ja — chauffeurs zijn beschikbaar per uur, halve dag, hele dag of voor uw hele verblijf, in Marrakech of in heel Marokko." }, { "q": "Welke auto's zijn beschikbaar met chauffeur?", "a": "Het grootste deel van de vloot, van de Mercedes V-Klasse tot de Bentley Bentayga, is met privéchauffeur te boeken." }]
+    },
+    "weddings": {
+      "introH": "Trouwauto huren in Marrakech",
+      "introP": "Een trouwauto huren in Marrakech bij Accrocar betekent een vlekkeloze aankomst — een bruidsauto, een gecoördineerde stoet of een vloot voor uw gasten, op tijd geleverd op uw locatie, riad of paleis. Elke auto wordt voorbereid en verzorgd voor de dag.",
+      "casesH": "Voor uw trouwdag",
+      "cases": ["Bruidsauto voor de aankomst bij de ceremonie", "Gecoördineerde stoet voor het paar en de familie", "Gastentransfers vanaf hotels en riads", "Voertuigen voor foto- en contentshoots", "Luchthavenontvangst voor aankomende gasten"],
+      "threeH": "Bezorging en timing",
+      "threeP": "Wij bezorgen op trouwlocaties in Marrakech en de regio — de Palmeraie, Agafay-domeinen, Medina-riads en privévilla's — afgestemd op uw draaiboek met uw planner zodat de auto exact op tijd op zijn plaats staat.",
+      "bookingH": "Zo plant u het",
+      "bookingP": "Deel de trouwdatum, locaties en tijden, het aantal voertuigen en of u chauffeurs nodig hebt. Wij coördineren met uw weddingplanner en bevestigen elk detail vooraf.",
+      "extraP": "Van het eerste contact tot het laatste vertrek plannen wij uw trouwauto's rond uw tijdschema in Marrakech, zodat u op de dag zelf alleen aan het feest denkt.",
+      "extraP2": "In Marrakech stemmen we rechtstreeks af met uw weddingplanner of de concierge van de locatie — van een landgoed in de Palmeraie of een Agafay-domein tot een Medina-riad of privévilla — en plannen we elke auto op uw draaiboek. Aankomsten vanaf de luchthaven Marrakech Menara worden afgestemd op de vluchten van gasten, en de bruidsauto staat klaar en verzorgd vóór de ceremonie, zodat elke entree precies op tijd gebeurt. Stoeten, gastenshuttles en een reservevoertuig kunnen worden geregeld zodat geen enkel moment van de dag op vervoer hoeft te wachten.",
+      "faqH": "Vragen over de bruiloft",
+      "faq": [{ "q": "Kunt u meerdere auto's voor de bruiloft leveren?", "a": "Ja — van één bruidsauto tot een volledige stoet en gastentransfers, gecoördineerd volgens uw programma." }, { "q": "Komen trouwauto's met een chauffeur?", "a": "Bruiloftsboekingen bevatten standaard een professionele chauffeur; het paar kan op aanvraag ook zelf rijden." }, { "q": "Werkt u met weddingplanners?", "a": "Ja — wij coördineren rechtstreeks met uw planner over timing, locaties en het draaiboek." }]
+    }
   }
 }

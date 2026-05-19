@@ -93,6 +93,9 @@ export default function Hero() {
               {t('home.hero.title')}
             </motion.span>
           </span>
+          <span className="mt-5 block eyebrow text-sand font-sans">
+            {t('pagesSeo.home')}
+          </span>
         </h1>
 
         <div className="mt-8 md:mt-10 grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-10 items-end">

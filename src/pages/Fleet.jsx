@@ -6,6 +6,7 @@ import Seo from '../components/Seo'
 import PageTransition from '../components/PageTransition'
 import Reveal from '../components/animations/Reveal'
 import FleetLuxeSelect from '../components/FleetLuxeSelect'
+import PageContentSections from '../components/PageContentSections'
 import { cars } from '../data/cars'
 import { localizePath } from '../lib/routes'
 import { useLang } from '../lib/useLang'
@@ -114,6 +115,9 @@ export default function Fleet() {
         <Reveal delay={0.1} className="mt-8">
           <h1 className="font-serif text-display-xl leading-[0.95] text-obsidian">
             {t('fleet.title')}
+            <span className="mt-4 block eyebrow text-sand font-sans">
+              {t('pagesSeo.fleet')}
+            </span>
           </h1>
         </Reveal>
         <Reveal delay={0.2} className="mt-8 max-w-xl">
@@ -208,6 +212,8 @@ export default function Fleet() {
           </motion.div>
         </AnimatePresence>
       </section>
+
+      <PageContentSections page="fleet" />
     </PageTransition>
   )
 }
